@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: AttackAbility
   m_EditorClassIdentifier: 
   abilityName: Attack
-  <AttackingSound>k__BackingField: {fileID: 0}
+  <AttackingSound>k__BackingField: {fileID: 8300000, guid: 5c08d6caec62feb47b34c0abbaf95cc8, type: 3}

@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   abilityName: Hook
   <HookDistance>k__BackingField: 3
-  <HookSound>k__BackingField: {fileID: 0}
+  <HookSound>k__BackingField: {fileID: 8300000, guid: ccfcbd3bfbe393e47b527cbd5f435afa, type: 3}
