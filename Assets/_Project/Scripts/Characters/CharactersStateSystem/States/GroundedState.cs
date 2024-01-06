@@ -29,12 +29,14 @@ namespace MatchaIsSpent.CharactersStateSystem
 
         public override void OnEnter()
         {
-            playerController.InputReader.OnTeleportEvent += Teleport;
+            playerController.InputReader.OnHookEvent += LaunchHook;
+            playerController.InputReader.OnAttackEvent += Attack;
         }
 
         public override void OnExit()
         {
-            playerController.InputReader.OnTeleportEvent -= Teleport;
+            playerController.InputReader.OnHookEvent -= LaunchHook;
+            playerController.InputReader.OnAttackEvent += Attack;
         }
 
         public override void OnUpdate(float deltaTime)
