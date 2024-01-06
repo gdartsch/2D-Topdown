@@ -58,7 +58,6 @@ namespace MatchaIsSpent.CharactersStateSystem
         /// </summary>
         private void Animate()
         {
-            playerController.Renderer.flipX = playerController.InputReader.MoveInput.x < 0;
             playerController.Animator.SetFloat("Speed", playerController.InputReader.MoveInput.magnitude);
             playerController.Animator.SetFloat("AnimationMoveX", playerController.InputReader.MoveInput.x);
             playerController.Animator.SetFloat("AnimationMoveY", playerController.InputReader.MoveInput.y);
