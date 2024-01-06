@@ -11,7 +11,7 @@ namespace MatchaIsSpent.Characters.AbilitySystem
     public class TeleportAbility : BaseAbilitySO
     {
         [Tooltip("The name of the ability.")]
-        [SerializeField] private string abilityName;
+        [SerializeField] private string abilityName = "Teleport";
         [Tooltip("The distance to teleport when teleporting one tile.")]
         [field: SerializeField] public float TeleportingOneTileDistance { get; private set; } = 2f;
         [Tooltip("The distance to teleport when teleporting two tiles.")]

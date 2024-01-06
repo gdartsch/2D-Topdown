@@ -16,6 +16,8 @@ namespace MatchaIsSpent.CharactersStateSystem
         /// <param name="playerController"></param>
         public AttackState(PlayerController playerController) : base(playerController)
         {
+            playerController.AbilityRunner.currentAbility = playerController.AbilityRunner.AbilitySequences[2];
+            playerController.AbilityRunner.currentAbility.Run(playerController, localDeltaTime);
         }
 
         public override void OnEnter()

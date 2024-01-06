@@ -27,6 +27,11 @@ public class InputReader : MonoBehaviour, PlayerControls.IPlayerActions
     /// </summary>
     public event Action OnAttackEvent;
 
+    /// <summary>
+    /// The player's teleport input.
+    /// </summary>
+    public event Action OnTeleportEvent;
+
     private void Start()
     {
         playerControls = new PlayerControls();
@@ -71,5 +76,17 @@ public class InputReader : MonoBehaviour, PlayerControls.IPlayerActions
         if (!context.performed) return;
 
         OnAttackEvent?.Invoke();
+    }
+
+    /// <summary>
+    /// Read the player's teleport input.
+    /// <paramref name="context"/>: The context of the input.
+    /// </summary>
+    /// <param name="context"></param>
+    public void OnTeleport(InputAction.CallbackContext context)
+    {
+        if (!context.performed) return;
+
+        OnTeleportEvent?.Invoke();
     }
 }

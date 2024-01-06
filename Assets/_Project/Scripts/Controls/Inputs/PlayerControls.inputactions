@@ -6,7 +6,7 @@
             "id": "9870bacb-4a22-4687-96c1-74cc7878259e",
             "actions": [
                 {
-                    "name": "Hook",
+                    "name": "Teleport",
                     "type": "Button",
                     "id": "9f8632e0-bedb-44ea-b8c0-72155395b5a5",
                     "expectedControlType": "Button",
@@ -31,6 +31,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "Hook",
+                    "type": "Button",
+                    "id": "6608be41-0534-4e4f-9ec4-b398c08447ff",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -41,7 +50,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "MouseAndKeyboard",
-                    "action": "Hook",
+                    "action": "Teleport",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -52,7 +61,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
-                    "action": "Hook",
+                    "action": "Teleport",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -196,6 +205,28 @@
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "Attack",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e09dcb31-fee1-40a8-b134-565e40043cb8",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "MouseAndKeyboard",
+                    "action": "Hook",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6eaf8850-4436-4622-b573-39676f1230a8",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
+                    "action": "Hook",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
