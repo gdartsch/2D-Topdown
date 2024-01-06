@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ce8fea482f606f41b2e6b09c74dec65, type: 3}
   m_Name: HookAbilityDecorators
   m_EditorClassIdentifier: 
-  delay: 1
+  delay: 0
   decoredAbility: {fileID: 11400000, guid: 4652f10a05adaf047ae5ed74b01493c6, type: 2}

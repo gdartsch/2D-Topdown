@@ -6,11 +6,12 @@ TagManager:
   tags:
   - NPC
   - Prop
+  - Enemy
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Enemies
   - Water
   - UI
   - 
