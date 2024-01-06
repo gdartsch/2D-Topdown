@@ -21,3 +21,10 @@ It works both from the Editor and Compiled game.
 2. Login system.
 3. Different biomes.
 4. Biome system.
+
+## Credits:
+https://freesound.org/people/InfamousLazure/sounds/688989/
+https://freesound.org/people/Robinhood76/sounds/368314/
+https://freesound.org/people/ryanconway/sounds/240800/
+https://immunitys.itch.io/pixel-top-down-character
+https://pixel-poem.itch.io/free-rpg-tileset
