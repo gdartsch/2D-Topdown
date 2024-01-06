@@ -23,6 +23,8 @@ namespace MatchaIsSpent.CharactersStateSystem
         [field: SerializeField] public AbilityRunner AbilityRunner { get; private set; }
         [Tooltip("The player's Abilities AudioSource.")]
         [field: SerializeField] public AudioSource AbilitiesAudioSource { get; private set; }
+        [Tooltip("The player's Weapon.")]
+        [field: SerializeField] public GameObject Weapon { get; private set; }
 
         [field: Space(1), Header("Movement")]
         [Tooltip("The speed at which the player moves.")]

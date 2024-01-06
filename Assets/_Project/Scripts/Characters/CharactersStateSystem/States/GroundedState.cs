@@ -4,7 +4,7 @@ namespace MatchaIsSpent.CharactersStateSystem
     /// <summary>
     /// This class is used to create a grounded state for the player.
     /// </summary>
-    public class GroundedState : CharacterMovementStatePattern, IHook, IAttack
+    public class GroundedState : CharacterMovementStatePattern, IHook, IAttack, ITeleport
     {
         /// <summary>
         /// Create a new grounded state.
@@ -14,14 +14,27 @@ namespace MatchaIsSpent.CharactersStateSystem
         public GroundedState(PlayerController playerController) : base(playerController) { }
 
         /// <summary>
+        /// Launch the player's hook.
+        /// Switch the player state to HookState.
+        /// </summary>
+        public void LaunchHook()
+        {
+            playerController.SetState(new HookState(playerController));
+        }
+
+        /// <summary>
         /// Teleport the player.
         /// Switch the player state to TeleportingState.
         /// </summary>
-        public void LaunchHook()
+        public void Teleport()
         {
             playerController.SetState(new TeleportingState(playerController));
         }
 
+        /// <summary>
+        /// Attack.
+        /// Switch the player state to AttackState.
+        /// </summary>
         public void Attack()
         {
             playerController.SetState(new AttackState(playerController));
@@ -31,12 +44,14 @@ namespace MatchaIsSpent.CharactersStateSystem
         {
             playerController.InputReader.OnHookEvent += LaunchHook;
             playerController.InputReader.OnAttackEvent += Attack;
+            playerController.InputReader.OnTeleportEvent += Teleport;
         }
 
         public override void OnExit()
         {
             playerController.InputReader.OnHookEvent -= LaunchHook;
-            playerController.InputReader.OnAttackEvent += Attack;
+            playerController.InputReader.OnAttackEvent -= Attack;
+            playerController.InputReader.OnTeleportEvent -= Teleport;
         }
 
         public override void OnUpdate(float deltaTime)
@@ -58,7 +73,6 @@ namespace MatchaIsSpent.CharactersStateSystem
         /// </summary>
         private void Animate()
         {
-            playerController.Renderer.flipX = playerController.InputReader.MoveInput.x < 0;
             playerController.Animator.SetFloat("Speed", playerController.InputReader.MoveInput.magnitude);
             playerController.Animator.SetFloat("AnimationMoveX", playerController.InputReader.MoveInput.x);
             playerController.Animator.SetFloat("AnimationMoveY", playerController.InputReader.MoveInput.y);

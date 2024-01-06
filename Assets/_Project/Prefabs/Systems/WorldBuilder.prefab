@@ -1,0 +1,379 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3556334325814657083
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3382603453628916573}
+  - component: {fileID: 5887408094116311411}
+  - component: {fileID: 3578278840605077619}
+  - component: {fileID: 5253950151476518197}
+  - component: {fileID: 984620361197846447}
+  - component: {fileID: 8431294142276498809}
+  - component: {fileID: 325518776151418652}
+  - component: {fileID: 6424796702254504369}
+  m_Layer: 0
+  m_Name: WorldBuilder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3382603453628916573
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3556334325814657083}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5887408094116311411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3556334325814657083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3a0942f3f19d1641af13772bbb65914, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <RoomSize>k__BackingField: {x: 50, y: 80}
+  <Submaps>k__BackingField: 3
+  <Offset>k__BackingField: 1
+  <MinRoomWidth>k__BackingField: 10
+  <MinRoomHeight>k__BackingField: 10
+  <BigGrassRandomWalkSettings>k__BackingField: {fileID: 11400000, guid: 41c24c4728e633c4ea31ecd9cef9abf6, type: 2}
+  <SmallGrassRandomWalkSettings>k__BackingField: {fileID: 11400000, guid: b6552e33e74f95e41bf998bcfb08cded, type: 2}
+  <SmallIslandRandomWalkSettings>k__BackingField: {fileID: 11400000, guid: b6552e33e74f95e41bf998bcfb08cded, type: 2}
+  TilesDataManager: {fileID: 0}
+  <WorldMap>k__BackingField: {fileID: 0}
+  <GrassMap>k__BackingField: {fileID: 0}
+  <GrassOverMap>k__BackingField: {fileID: 0}
+  <MapData>k__BackingField: {fileID: 325518776151418652}
+  <RoomGenerator>k__BackingField: {fileID: 5253950151476518197}
+  randomTileIndex: 0
+--- !u!114 &3578278840605077619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3556334325814657083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9f0b89b700bead49bee5732f1fd396d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  generate: {fileID: -3014513356304133277, guid: e0db73a4972bf8a4090dcb22043aeaf6, type: 3}
+  worldGenerationSettings: {fileID: 5887408094116311411}
+  OnFinishedGenerationUnityEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6424796702254504369}
+        m_TargetAssemblyTypeName: RoomDataExtractor, Assembly-CSharp
+        m_MethodName: ProcessRooms
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+--- !u!114 &5253950151476518197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3556334325814657083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2c1dca5a1e04834baee4084324dc066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <MainRoomTiles>k__BackingField:
+  - <Name>k__BackingField: FloorTiles
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 24bfb3964d5d04a4cb4c4b5ca05fbdfb, type: 2}
+    - {fileID: 11400000, guid: d27fa6a7d8866d242a8300018c664cae, type: 2}
+    - {fileID: 11400000, guid: b3bd6579279ec33418d36cb8853afae3, type: 2}
+  - <Name>k__BackingField: CliffEdgeTiles
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 0d96a39238179484d81ba0479ce20c32, type: 2}
+    - {fileID: 11400000, guid: ba65a2ca90bf1f64e8faf3d38c17a614, type: 2}
+    - {fileID: 11400000, guid: 0ef1769a826bd4b4cbe93f3bd9472212, type: 2}
+  - <Name>k__BackingField: CliffTile
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 404e6b17be0f62f4ba12244cc1678ea5, type: 2}
+  - <Name>k__BackingField: WallTile
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: ea90d4b3a42df3445a1e53d379e7a10d, type: 2}
+  <BigGrassRoomTiles>k__BackingField:
+  - <Name>k__BackingField: BigGrassTiles
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 35f354a958de0774dabf3cd9b804f7d8, type: 2}
+    - {fileID: 11400000, guid: d097b5d9af685a14693da931a9edc13b, type: 2}
+    - {fileID: 11400000, guid: 173a5496194e6594382212552a93a5e8, type: 2}
+  - <Name>k__BackingField: GrassEdgeInnerCornerDownLeft
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 955f40e9fb94e194f9020d422cc8085e, type: 2}
+    - {fileID: 11400000, guid: 951fb26820f6f5a4f83905b898653d26, type: 2}
+    - {fileID: 11400000, guid: a5c853e7e6803bd43b67c9eff23e9d9c, type: 2}
+  - <Name>k__BackingField: GrassEdgeInnerCornerDownRight
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 955f40e9fb94e194f9020d422cc8085e, type: 2}
+    - {fileID: 11400000, guid: 951fb26820f6f5a4f83905b898653d26, type: 2}
+    - {fileID: 11400000, guid: a5c853e7e6803bd43b67c9eff23e9d9c, type: 2}
+  - <Name>k__BackingField: GrassEdgeDiagonalCornerDownRight
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 955f40e9fb94e194f9020d422cc8085e, type: 2}
+    - {fileID: 11400000, guid: 951fb26820f6f5a4f83905b898653d26, type: 2}
+    - {fileID: 11400000, guid: a5c853e7e6803bd43b67c9eff23e9d9c, type: 2}
+  - <Name>k__BackingField: GrassEdgeDiagonalCornerDownLeft
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 955f40e9fb94e194f9020d422cc8085e, type: 2}
+    - {fileID: 11400000, guid: 951fb26820f6f5a4f83905b898653d26, type: 2}
+    - {fileID: 11400000, guid: a5c853e7e6803bd43b67c9eff23e9d9c, type: 2}
+  - <Name>k__BackingField: GrassEdgeDiagonalCornerUpRight
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 955f40e9fb94e194f9020d422cc8085e, type: 2}
+    - {fileID: 11400000, guid: 951fb26820f6f5a4f83905b898653d26, type: 2}
+    - {fileID: 11400000, guid: a5c853e7e6803bd43b67c9eff23e9d9c, type: 2}
+  - <Name>k__BackingField: GrassEdgeDiagonalCornerUpLeft
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 955f40e9fb94e194f9020d422cc8085e, type: 2}
+    - {fileID: 11400000, guid: 951fb26820f6f5a4f83905b898653d26, type: 2}
+    - {fileID: 11400000, guid: a5c853e7e6803bd43b67c9eff23e9d9c, type: 2}
+  - <Name>k__BackingField: GrassEdgeFull
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 955f40e9fb94e194f9020d422cc8085e, type: 2}
+    - {fileID: 11400000, guid: 951fb26820f6f5a4f83905b898653d26, type: 2}
+    - {fileID: 11400000, guid: a5c853e7e6803bd43b67c9eff23e9d9c, type: 2}
+  - <Name>k__BackingField: GrassEdgeBottom
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 955f40e9fb94e194f9020d422cc8085e, type: 2}
+    - {fileID: 11400000, guid: 951fb26820f6f5a4f83905b898653d26, type: 2}
+    - {fileID: 11400000, guid: a5c853e7e6803bd43b67c9eff23e9d9c, type: 2}
+  - <Name>k__BackingField: GrassEdgeTop
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 955f40e9fb94e194f9020d422cc8085e, type: 2}
+    - {fileID: 11400000, guid: 951fb26820f6f5a4f83905b898653d26, type: 2}
+    - {fileID: 11400000, guid: a5c853e7e6803bd43b67c9eff23e9d9c, type: 2}
+  - <Name>k__BackingField: GrassEdgeRight
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 955f40e9fb94e194f9020d422cc8085e, type: 2}
+    - {fileID: 11400000, guid: 951fb26820f6f5a4f83905b898653d26, type: 2}
+    - {fileID: 11400000, guid: a5c853e7e6803bd43b67c9eff23e9d9c, type: 2}
+  - <Name>k__BackingField: GrassEdgeLeft
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 955f40e9fb94e194f9020d422cc8085e, type: 2}
+    - {fileID: 11400000, guid: 951fb26820f6f5a4f83905b898653d26, type: 2}
+    - {fileID: 11400000, guid: a5c853e7e6803bd43b67c9eff23e9d9c, type: 2}
+  <SmallGrassRoomTiles>k__BackingField:
+  - <Name>k__BackingField: SmallGrassTiles
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 11e4531b7dbd58446a98e20661a470d1, type: 2}
+    - {fileID: 11400000, guid: bc2b294299b0ae94696e4f404493982f, type: 2}
+    - {fileID: 11400000, guid: 1e299068979b5c041891f143a66e3856, type: 2}
+  - <Name>k__BackingField: SmallGrassEdgeInnerCornerDownLeft
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 4718484af30f6444ebd83bca8e406689, type: 2}
+    - {fileID: 11400000, guid: 39ca31b5cc9229949a0aae08d1ba386d, type: 2}
+    - {fileID: 11400000, guid: 0b94682798a0c384ea744e5bbc006eb8, type: 2}
+  - <Name>k__BackingField: SmallGrassEdgeInnerCornerDownRight
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 4718484af30f6444ebd83bca8e406689, type: 2}
+    - {fileID: 11400000, guid: 39ca31b5cc9229949a0aae08d1ba386d, type: 2}
+    - {fileID: 11400000, guid: 0b94682798a0c384ea744e5bbc006eb8, type: 2}
+  - <Name>k__BackingField: SmallGrassEdgeDiagonalCornerDownRight
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 4718484af30f6444ebd83bca8e406689, type: 2}
+    - {fileID: 11400000, guid: 39ca31b5cc9229949a0aae08d1ba386d, type: 2}
+    - {fileID: 11400000, guid: 0b94682798a0c384ea744e5bbc006eb8, type: 2}
+  - <Name>k__BackingField: SmallGrassEdgeDiagonalCornerDownLeft
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 4718484af30f6444ebd83bca8e406689, type: 2}
+    - {fileID: 11400000, guid: 39ca31b5cc9229949a0aae08d1ba386d, type: 2}
+    - {fileID: 11400000, guid: 0b94682798a0c384ea744e5bbc006eb8, type: 2}
+  - <Name>k__BackingField: SmallGrassEdgeDiagonalCornerUpRight
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 4718484af30f6444ebd83bca8e406689, type: 2}
+    - {fileID: 11400000, guid: 39ca31b5cc9229949a0aae08d1ba386d, type: 2}
+    - {fileID: 11400000, guid: 0b94682798a0c384ea744e5bbc006eb8, type: 2}
+  - <Name>k__BackingField: SmallGrassEdgeDiagonalCornerUpLeft
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 4718484af30f6444ebd83bca8e406689, type: 2}
+    - {fileID: 11400000, guid: 39ca31b5cc9229949a0aae08d1ba386d, type: 2}
+    - {fileID: 11400000, guid: 0b94682798a0c384ea744e5bbc006eb8, type: 2}
+  - <Name>k__BackingField: SmallGrassEdgeFull
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 4718484af30f6444ebd83bca8e406689, type: 2}
+    - {fileID: 11400000, guid: 39ca31b5cc9229949a0aae08d1ba386d, type: 2}
+    - {fileID: 11400000, guid: 0b94682798a0c384ea744e5bbc006eb8, type: 2}
+  - <Name>k__BackingField: SmallGrassEdgeBottom
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 4718484af30f6444ebd83bca8e406689, type: 2}
+    - {fileID: 11400000, guid: 39ca31b5cc9229949a0aae08d1ba386d, type: 2}
+    - {fileID: 11400000, guid: 0b94682798a0c384ea744e5bbc006eb8, type: 2}
+  - <Name>k__BackingField: SmallGrassEdgeTop
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 4718484af30f6444ebd83bca8e406689, type: 2}
+    - {fileID: 11400000, guid: 39ca31b5cc9229949a0aae08d1ba386d, type: 2}
+    - {fileID: 11400000, guid: 0b94682798a0c384ea744e5bbc006eb8, type: 2}
+  - <Name>k__BackingField: SmallGrassEdgeRight
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 4718484af30f6444ebd83bca8e406689, type: 2}
+    - {fileID: 11400000, guid: 39ca31b5cc9229949a0aae08d1ba386d, type: 2}
+    - {fileID: 11400000, guid: 0b94682798a0c384ea744e5bbc006eb8, type: 2}
+  - <Name>k__BackingField: SmallGrassEdgeLeft
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 4718484af30f6444ebd83bca8e406689, type: 2}
+    - {fileID: 11400000, guid: 39ca31b5cc9229949a0aae08d1ba386d, type: 2}
+    - {fileID: 11400000, guid: 0b94682798a0c384ea744e5bbc006eb8, type: 2}
+  <IslandRoomTiles>k__BackingField:
+  - <Name>k__BackingField: IslandTiles
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 24bfb3964d5d04a4cb4c4b5ca05fbdfb, type: 2}
+    - {fileID: 11400000, guid: d27fa6a7d8866d242a8300018c664cae, type: 2}
+    - {fileID: 11400000, guid: b3bd6579279ec33418d36cb8853afae3, type: 2}
+  - <Name>k__BackingField: IslandEdgeInnerCornerDownLeft
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 0d96a39238179484d81ba0479ce20c32, type: 2}
+    - {fileID: 11400000, guid: ba65a2ca90bf1f64e8faf3d38c17a614, type: 2}
+    - {fileID: 11400000, guid: 0ef1769a826bd4b4cbe93f3bd9472212, type: 2}
+  - <Name>k__BackingField: IslandEdgeInnerCornerDownRight
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 0d96a39238179484d81ba0479ce20c32, type: 2}
+    - {fileID: 11400000, guid: ba65a2ca90bf1f64e8faf3d38c17a614, type: 2}
+    - {fileID: 11400000, guid: 0ef1769a826bd4b4cbe93f3bd9472212, type: 2}
+  - <Name>k__BackingField: IslandEdgeDiagonalCornerDownRight
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 0d96a39238179484d81ba0479ce20c32, type: 2}
+    - {fileID: 11400000, guid: ba65a2ca90bf1f64e8faf3d38c17a614, type: 2}
+    - {fileID: 11400000, guid: 0ef1769a826bd4b4cbe93f3bd9472212, type: 2}
+  - <Name>k__BackingField: IslandEdgeDiagonalCornerDownLeft
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 0d96a39238179484d81ba0479ce20c32, type: 2}
+    - {fileID: 11400000, guid: ba65a2ca90bf1f64e8faf3d38c17a614, type: 2}
+    - {fileID: 11400000, guid: 0ef1769a826bd4b4cbe93f3bd9472212, type: 2}
+  - <Name>k__BackingField: IslandEdgeDiagonalCornerUpRight
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 0d96a39238179484d81ba0479ce20c32, type: 2}
+    - {fileID: 11400000, guid: ba65a2ca90bf1f64e8faf3d38c17a614, type: 2}
+    - {fileID: 11400000, guid: 0ef1769a826bd4b4cbe93f3bd9472212, type: 2}
+  - <Name>k__BackingField: IslandEdgeDiagonalCornerUpLeft
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 0d96a39238179484d81ba0479ce20c32, type: 2}
+    - {fileID: 11400000, guid: ba65a2ca90bf1f64e8faf3d38c17a614, type: 2}
+    - {fileID: 11400000, guid: 0ef1769a826bd4b4cbe93f3bd9472212, type: 2}
+  - <Name>k__BackingField: IslandEdgeFull
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 0d96a39238179484d81ba0479ce20c32, type: 2}
+    - {fileID: 11400000, guid: ba65a2ca90bf1f64e8faf3d38c17a614, type: 2}
+    - {fileID: 11400000, guid: 0ef1769a826bd4b4cbe93f3bd9472212, type: 2}
+  - <Name>k__BackingField: IslandEdgeBottom
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 0d96a39238179484d81ba0479ce20c32, type: 2}
+    - {fileID: 11400000, guid: ba65a2ca90bf1f64e8faf3d38c17a614, type: 2}
+    - {fileID: 11400000, guid: 0ef1769a826bd4b4cbe93f3bd9472212, type: 2}
+  - <Name>k__BackingField: IslandEdgeTop
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 0d96a39238179484d81ba0479ce20c32, type: 2}
+    - {fileID: 11400000, guid: ba65a2ca90bf1f64e8faf3d38c17a614, type: 2}
+    - {fileID: 11400000, guid: 0ef1769a826bd4b4cbe93f3bd9472212, type: 2}
+  - <Name>k__BackingField: IslandEdgeRight
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 0d96a39238179484d81ba0479ce20c32, type: 2}
+    - {fileID: 11400000, guid: ba65a2ca90bf1f64e8faf3d38c17a614, type: 2}
+    - {fileID: 11400000, guid: 0ef1769a826bd4b4cbe93f3bd9472212, type: 2}
+  - <Name>k__BackingField: IslandEdgeLeft
+    <Tiles>k__BackingField:
+    - {fileID: 11400000, guid: 0d96a39238179484d81ba0479ce20c32, type: 2}
+    - {fileID: 11400000, guid: ba65a2ca90bf1f64e8faf3d38c17a614, type: 2}
+    - {fileID: 11400000, guid: 0ef1769a826bd4b4cbe93f3bd9472212, type: 2}
+  worldGenerationSettings: {fileID: 5887408094116311411}
+  edgeGenerator: {fileID: 984620361197846447}
+--- !u!114 &984620361197846447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3556334325814657083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad872154965469343be6475f6ab43b4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  worldGenerationSettings: {fileID: 5887408094116311411}
+  roomData: {fileID: 5253950151476518197}
+  painter: {fileID: 8431294142276498809}
+--- !u!114 &8431294142276498809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3556334325814657083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee750055ca6b1ca438fe45881fd50f61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <WorldGenerationSettings>k__BackingField: {fileID: 5887408094116311411}
+  <RoomData>k__BackingField: {fileID: 5253950151476518197}
+--- !u!114 &325518776151418652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3556334325814657083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 788cc65744dc29b459e582f5f8ee0c8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6424796702254504369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3556334325814657083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cbc7c3ea132e9f4f9eb64b527e53ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mapData: {fileID: 325518776151418652}
+  OnFinishedRoomProcessing:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: PropPlacementManager, Assembly-CSharp
+        m_MethodName: ProcessRooms
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1

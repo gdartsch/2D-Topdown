@@ -6,7 +6,7 @@ namespace MatchaIsSpent.CharactersStateSystem
     public class TeleportingState : CharacterMovementStatePattern, ILand
     {
         private float localDeltaTime = 0;
-        private float hookTime = 0.1f;
+        private float teleportTime = 0.1f;
 
         /// <summary>
         /// Create a new hook state.
@@ -31,8 +31,8 @@ namespace MatchaIsSpent.CharactersStateSystem
         public override void OnUpdate(float deltaTime)
         {
             localDeltaTime = deltaTime;
-            hookTime -= deltaTime;
-            if (hookTime <= 0)
+            teleportTime -= deltaTime;
+            if (teleportTime <= 0)
             {
                 Land();
             }
