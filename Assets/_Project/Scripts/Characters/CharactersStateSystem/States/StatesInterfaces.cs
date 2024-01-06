@@ -10,15 +10,18 @@ namespace MatchaIsSpent.CharactersStateSystem
     }
 
     /// <summary>
-    /// Interface for the teleport ability.
+    /// Interface for the hook ability.
     /// </summary>
     public interface IHook
     {
         void LaunchHook();
     }
 
-    public interface IMeleeAttack
+    /// <summary>
+    /// Interface for the attack ability.
+    /// </summary>
+    public interface IAttack
     {
-        void MeleeAttack();
+        void Attack();
     }
 }

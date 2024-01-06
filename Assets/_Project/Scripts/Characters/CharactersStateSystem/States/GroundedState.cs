@@ -4,7 +4,7 @@ namespace MatchaIsSpent.CharactersStateSystem
     /// <summary>
     /// This class is used to create a grounded state for the player.
     /// </summary>
-    public class GroundedState : CharacterMovementStatePattern, IHook, IMeleeAttack
+    public class GroundedState : CharacterMovementStatePattern, IHook, IAttack
     {
         /// <summary>
         /// Create a new grounded state.
@@ -14,31 +14,27 @@ namespace MatchaIsSpent.CharactersStateSystem
         public GroundedState(PlayerController playerController) : base(playerController) { }
 
         /// <summary>
-        /// Launch hook.
-        /// Switch the player state to Hook State.
+        /// Teleport the player.
+        /// Switch the player state to TeleportingState.
         /// </summary>
         public void LaunchHook()
         {
-            playerController.SetState(new HookState(playerController));
+            playerController.SetState(new TeleportingState(playerController));
         }
 
-        /// <summary>
-        /// Melee attack.
-        /// Switch the player state to Attack State.
-        /// </summary>
-        public void MeleeAttack()
+        public void Attack()
         {
             playerController.SetState(new AttackState(playerController));
         }
 
         public override void OnEnter()
         {
-            playerController.InputReader.OnHookEvent += LaunchHook;
+            playerController.InputReader.OnTeleportEvent += Teleport;
         }
 
         public override void OnExit()
         {
-            playerController.InputReader.OnHookEvent -= LaunchHook;
+            playerController.InputReader.OnTeleportEvent -= Teleport;
         }
 
         public override void OnUpdate(float deltaTime)

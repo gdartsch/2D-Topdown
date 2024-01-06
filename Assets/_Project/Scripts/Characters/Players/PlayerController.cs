@@ -1,4 +1,4 @@
-//using MatchaIsSpent.Characters.AbilitySystem;
+using MatchaIsSpent.Characters.AbilitySystem;
 using UnityEngine;
 
 namespace MatchaIsSpent.CharactersStateSystem
@@ -19,8 +19,8 @@ namespace MatchaIsSpent.CharactersStateSystem
         [field: SerializeField] public SpriteRenderer Renderer { get; private set; }
         [Tooltip("Helper to get the exact tile position of the player.")]
         [field: SerializeField] public Transform WorldPositionGetter { get; private set; }
-        // [Tooltip("The ability runner for the player.")]
-        // [field: SerializeField] public AbilityRunner AbilityRunner { get; private set; }
+        [Tooltip("The ability runner for the player.")]
+        [field: SerializeField] public AbilityRunner AbilityRunner { get; private set; }
         [Tooltip("The player's Abilities AudioSource.")]
         [field: SerializeField] public AudioSource AbilitiesAudioSource { get; private set; }
 
