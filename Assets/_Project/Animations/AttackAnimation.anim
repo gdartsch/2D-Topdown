@@ -102,7 +102,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Hook
+    path: Weapon
   m_ScaleCurves: []
   m_FloatCurves:
   - serializedVersion: 2
@@ -120,7 +120,7 @@ AnimationClip:
         outWeight: 0
       - serializedVersion: 3
         time: 0.56666666
-        value: 0
+        value: 1
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -131,7 +131,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Hook
+    path: Weapon
     classID: 1
     script: {fileID: 0}
     flags: 0
@@ -144,7 +144,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 74116203
+      path: 1855955664
       attribute: 1
       script: {fileID: 0}
       typeID: 4
@@ -153,7 +153,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 74116203
+      path: 1855955664
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
@@ -272,7 +272,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Hook
+    path: Weapon
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -365,7 +365,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Hook
+    path: Weapon
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -458,7 +458,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Hook
+    path: Weapon
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -477,7 +477,7 @@ AnimationClip:
         outWeight: 0
       - serializedVersion: 3
         time: 0.56666666
-        value: 0
+        value: 1
         inSlope: Infinity
         outSlope: Infinity
         tangentMode: 103
@@ -488,7 +488,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Hook
+    path: Weapon
     classID: 1
     script: {fileID: 0}
     flags: 0

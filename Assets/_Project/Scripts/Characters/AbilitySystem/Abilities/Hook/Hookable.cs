@@ -2,13 +2,14 @@ using UnityEngine;
 
 public class Hookable : MonoBehaviour, IHookable
 {
-    public void Hook(IHookable hookable, Transform hooked)
+    public void Hook(IHookable hookable, Transform hooker)
     {
-        hooked.SetParent(transform);
+        Debug.Log($"{hookable} hooked {hooker}");
+        transform.SetParent(hooker);
     }
 
-    public void Unhook(Transform hooked)
+    public void Unhook(Transform hooker)
     {
-        hooked.DetachChildren();
+        hooker?.DetachChildren();
     }
 }
