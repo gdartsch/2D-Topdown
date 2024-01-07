@@ -22,7 +22,9 @@ GameObject:
   - component: {fileID: 1711467247370305152}
   - component: {fileID: 6776703423516433023}
   - component: {fileID: 673482399746223901}
-  m_Layer: 0
+  - component: {fileID: 3698726708734990538}
+  - component: {fileID: 2269345508767286187}
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -470,7 +472,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9681e18596a4a54ea31c362a8459853, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mana: 100
+  maxStat: 100
+  currentStat: 100
+  statType: 1
+  manaRecoverRate: 10
 --- !u!114 &673482399746223901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -484,6 +489,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   items: []
+--- !u!114 &3698726708734990538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3523646264781673658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c0ff66390aa64e45b57616853d4cb54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxStat: 100
+  currentStat: 100
+  statType: 0
+  damageSound: {fileID: 8300000, guid: 437baac2886e7274eb05c827040738be, type: 3}
+  spriteRenderer: {fileID: 4361833073005223806}
+  audioSource: {fileID: 5852498733586823683}
+--- !u!114 &2269345508767286187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3523646264781673658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43b2f13f1129d374c8d5c4cbbb712ebc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  quests:
+  - {fileID: 11400000, guid: 653edfb921c8c53479347c4367795583, type: 2}
 --- !u!1 &6179967306525516761
 GameObject:
   m_ObjectHideFlags: 0

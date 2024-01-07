@@ -4,7 +4,6 @@ public class Hookable : MonoBehaviour, IHookable
 {
     public void Hook(IHookable hookable, Transform hooker)
     {
-        Debug.Log($"{hookable} hooked {hooker}");
         transform.SetParent(hooker);
     }
 

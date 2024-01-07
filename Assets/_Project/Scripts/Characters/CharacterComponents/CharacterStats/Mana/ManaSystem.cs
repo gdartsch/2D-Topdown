@@ -34,7 +34,6 @@ namespace MatchaIsSpent.StatSystem
         public void SpendMana(int value)
         {
             currentStat -= value;
-            Debug.Log(currentStat + " " + maxStat);
             RestoreManaOverTime();
             OnStatChangedEvent();
         }

@@ -27,6 +27,10 @@ namespace MatchaIsSpent.WorldGeneration
         [SerializeField, Range(0, 1)] private float cornerPropPlacementChance = 0.7f;
         [Tooltip("List of props to place in the room.")]
         [SerializeField] private List<Prop> propsToPlace;
+        [Tooltip("Maximum number of enemy spawners per room.")]
+        [SerializeField] private int maxEnemySpawnersPerRoom = 4;
+        [Tooltip("Number of potions per room.")]
+        [SerializeField] private int potionsPerRoom = 20;
 
         [Space(1), Header("References")]
         [Tooltip("Map data of the room.")]
@@ -35,6 +39,16 @@ namespace MatchaIsSpent.WorldGeneration
         [SerializeField] private Transform parent;
         [Tooltip("Prefab of the prop.")]
         [SerializeField] private GameObject propPrefab;
+        [Tooltip("Prefab of the enemy spawner.")]
+        [SerializeField] private GameObject enemySpawnerPrefab;
+        [Tooltip("Prefab of the key spawner.")]
+        [SerializeField] private GameObject keyPrefab;
+        [Tooltip("Prefab of the door.")]
+        [SerializeField] private GameObject doorPrefab;
+        [Tooltip("Prefab of the health potions.")]
+        [SerializeField] private GameObject manaPotionsPrefab;
+        [Tooltip("Prefab of the health potions.")]
+        [SerializeField] private GameObject healthPotionsPrefab;
 
         [Space(1), Header("Events")]
         [Tooltip("Event invoked when the props are placed.")]
@@ -90,7 +104,137 @@ namespace MatchaIsSpent.WorldGeneration
                 PlaceProps(room, innerProps, room.InnerTiles, PlacementOriginCorner.BottomLeft);
             }
 
+            PlaceEnemySpawners();
+            PlaceKey();
+            PlaceDoor();
+            PlacePotions();
+
+
             OnFinishedPropPlacementUnityEvent?.Invoke();
+        }
+
+        /// <summary>
+        /// This method is used to place the potions in the room.
+        /// </summary>
+        private void PlacePotions()
+        {
+            for (int i = 0; i < mapData.Rooms.Count; i++)
+            {
+                for (int j = 0; j < potionsPerRoom; j++)
+                {
+                    Room room = mapData.Rooms[i];
+
+                    if (room == null)
+                        continue;
+
+                    int enemySpawnersCount = UnityEngine.Random.Range(1, maxEnemySpawnersPerRoom + 1);
+
+                    HashSet<Vector2Int> innerTiles = room.InnerTiles;
+
+                    if (innerTiles.Count == 0)
+                        continue;
+
+                    Vector2Int randomTile = innerTiles.OrderBy(x => Guid.NewGuid()).First();
+
+                    GameObject potion = Instantiate(UnityEngine.Random.value > 0.5f ? healthPotionsPrefab : manaPotionsPrefab);
+                    potion.transform.SetParent(parent);
+                    potion.transform.position = randomTile + Vector2.one * 0.5f;
+                }
+
+            }
+        }
+
+        /// <summary>
+        /// This method is used to place the key in a random room.
+        /// </summary>
+        private void PlaceKey()
+        {
+            bool placed = false;
+            for (int i = 0; i < mapData.Rooms.Count; i++)
+            {
+                Room room = mapData.Rooms[UnityEngine.Random.Range(0, mapData.Rooms.Count)];
+
+                if (placed)
+                    break;
+
+                if (room == null)
+                    continue;
+
+                HashSet<Vector2Int> innerTiles = room.InnerTiles;
+
+                if (innerTiles.Count == 0)
+                    continue;
+
+                Vector2Int randomTile = innerTiles.OrderBy(x => Guid.NewGuid()).First();
+
+                GameObject key = Instantiate(keyPrefab);
+                key.transform.SetParent(parent);
+                key.transform.position = randomTile + Vector2.one * 0.5f;
+
+                placed = true;
+            }
+        }
+
+        /// <summary>
+        /// This method is used to place the door in a random room.
+        /// </summary>
+        private void PlaceDoor()
+        {
+            bool placed = false;
+            for (int i = 0; i < mapData.Rooms.Count; i++)
+            {
+                Room room = mapData.Rooms[UnityEngine.Random.Range(0, mapData.Rooms.Count)];
+
+                if (placed)
+                    break;
+
+                if (room == null)
+                    continue;
+
+                HashSet<Vector2Int> innerTiles = room.InnerTiles;
+
+                if (innerTiles.Count == 0)
+                    continue;
+
+                Vector2Int randomTile = innerTiles.OrderBy(x => Guid.NewGuid()).First();
+
+                GameObject door = Instantiate(doorPrefab);
+                door.transform.SetParent(parent);
+                door.transform.position = randomTile + Vector2.one * 0.5f;
+
+                placed = true;
+            }
+        }
+
+        /// <summary>
+        /// This method is used to place the enemy spawners in the room.
+        /// </summary>
+        private void PlaceEnemySpawners()
+        {
+            for (int i = 0; i < mapData.Rooms.Count; i++)
+            {
+                for (int j = 0; j < maxEnemySpawnersPerRoom; j++)
+                {
+                    Room room = mapData.Rooms[i];
+
+                    if (room == null)
+                        continue;
+
+                    int enemySpawnersCount = UnityEngine.Random.Range(1, maxEnemySpawnersPerRoom + 1);
+
+                    HashSet<Vector2Int> innerTiles = room.InnerTiles;
+
+                    if (innerTiles.Count == 0)
+                        continue;
+
+                    Vector2Int randomTile = innerTiles.OrderBy(x => Guid.NewGuid()).First();
+
+                    GameObject enemySpawner = Instantiate(enemySpawnerPrefab);
+                    enemySpawner.transform.SetParent(parent);
+                    enemySpawner.transform.position = randomTile + Vector2.one * 0.5f;
+                }
+
+            }
         }
 
         /// <summary>

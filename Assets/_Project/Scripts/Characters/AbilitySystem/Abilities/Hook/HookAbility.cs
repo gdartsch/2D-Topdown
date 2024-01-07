@@ -61,10 +61,9 @@ namespace MatchaIsSpent.Characters.AbilitySystem
 
             if (playerController.Hook.transform.childCount > 0)
             {
-                Debug.Log(playerController.Hook.transform.childCount);
                 playerController.Hook.transform.GetChild(0).GetComponent<IHookable>()?.Unhook(playerController.Hook.transform);
             }
-            // Clean up after the hook action (e.g., deactivate hook)
+
             playerController.Hook.SetActive(false);
 
         }

@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 754c7691f8e145b4bb932952f3211462, type: 3}
   m_Name: HookManaAbilityDecorators
   m_EditorClassIdentifier: 
-  manaCost: 10
+  manaCost: 50
   decoredAbility: {fileID: 11400000, guid: 4652f10a05adaf047ae5ed74b01493c6, type: 2}
