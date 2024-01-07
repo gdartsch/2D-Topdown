@@ -1,8 +1,14 @@
-public enum ItemType
+namespace MatchaIsSpent.Objects
 {
-    Weapon,
-    Consumable,
-    Quest,
-    Chest,
-    Key
+    /// <summary>
+    /// The type of item.
+    /// </summary>
+    public enum ItemType
+    {
+        Weapon,
+        Consumable,
+        Quest,
+        Chest,
+        Key
+    }
 }

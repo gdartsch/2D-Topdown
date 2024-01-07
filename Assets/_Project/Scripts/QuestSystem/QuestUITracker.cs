@@ -1,89 +1,122 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class QuestUITracker : MonoBehaviour
+namespace MatchaIsSpent.QuestSystem
 {
-    [SerializeField] private TextMeshProUGUI isQuestActiveText;
-    [SerializeField] private TextMeshProUGUI questName;
-    [SerializeField] private TextMeshProUGUI questMissions;
-    [SerializeField] private TextMeshProUGUI questCompletion;
-    private List<string> questMissionsList = new List<string>();
-    private int missionsCompleted;
-
-    private void OnEnable()
+    /// <summary>
+    /// This class is responsible for updating the UI with the current quest information.
+    /// </summary>
+    public class QuestUITracker : MonoBehaviour
     {
-        Quest.OnQuestCompleted += OnQuestCompleted;
-        Quest.OnMissionCompleted += OnMissionCompleted;
-        Quest.OnQuestStarted += OnQuestStarted;
-    }
+        [Header("UI Elements")]
+        [Tooltip("Text that displays if a quest is active or not.")]
+        [SerializeField] private TextMeshProUGUI isQuestActiveText;
+        [Tooltip("Text that displays the quest name.")]
+        [SerializeField] private TextMeshProUGUI questName;
+        [Tooltip("Text that displays the quest missions.")]
+        [SerializeField] private TextMeshProUGUI questMissions;
+        [Tooltip("Text that displays the quest completion.")]
+        [SerializeField] private TextMeshProUGUI questCompletion;
+        /// <summary>
+        /// List of quest missions.
+        /// </summary>
+        private List<string> questMissionsList = new List<string>();
+        /// <summary>
+        /// Number of missions completed.
+        /// </summary>
+        private int missionsCompleted;
 
-    private void OnQuestStarted(Quest quest, List<Mission> missions)
-    {
-        try
+        private void OnEnable()
         {
-            isQuestActiveText.text = "Quest Active";
-            questName.text = quest.QuestName;
+            Quest.OnQuestCompleted += OnQuestCompleted;
+            Quest.OnMissionCompleted += OnMissionCompleted;
+            Quest.OnQuestStarted += OnQuestStarted;
+        }
 
-            foreach (Mission mission in missions)
+        /// <summary>
+        /// Updates the UI with the current quest information.
+        /// <paramref name="quest"/> The current quest.
+        /// <paramref name="missions"/> The current quest missions.
+        /// </summary>
+        /// <param name="quest"></param>
+        /// <param name="missions"></param>
+        private void OnQuestStarted(Quest quest, List<Mission> missions)
+        {
+            try
             {
-                questMissionsList.Add(mission.MissionName);
+                isQuestActiveText.text = "Quest Active";
+                questName.text = quest.QuestName;
+
+                foreach (Mission mission in missions)
+                {
+                    questMissionsList.Add(mission.MissionName);
+                }
+
+                foreach (string mission in questMissionsList)
+                {
+                    questMissions.text += mission + "\n";
+                }
+
+                questCompletion.text = $"0 / {missions.Count}";
+            }
+            catch (Exception err)
+            {
+                Debug.Log(err);
             }
 
-            foreach (string mission in questMissionsList)
+        }
+
+        /// <summary>
+        /// Updates the UI with the current quest information.
+        /// <paramref name="quest"/> The current quest.
+        /// </summary>
+        /// <param name="quest"></param>
+        private void OnQuestCompleted(Quest quest)
+        {
+            try
             {
-                questMissions.text += mission + "\n";
+                isQuestActiveText.text = "No Active Quest";
+                questName.text = "";
+                questMissions.text = "";
+                questCompletion.text = "";
             }
-
-            questCompletion.text = $"0 / {missions.Count}";
-        }
-        catch (Exception err)
-        {
-            Debug.Log(err);
-        }
-
-    }
-
-    private void OnQuestCompleted(Quest quest)
-    {
-        try
-        {
-            isQuestActiveText.text = "No Active Quest";
-            questName.text = "";
-            questMissions.text = "";
-            questCompletion.text = "";
-        }
-        catch (Exception err)
-        {
-            Debug.Log(err);
-        }
-    }
-
-    private void OnMissionCompleted(Mission mission)
-    {
-        try
-        {
-            missionsCompleted++;
-
-            if (questMissions.text.Contains(mission.MissionName))
+            catch (Exception err)
             {
-                questMissions.text = questMissions.text.Replace(mission.MissionName, $"<s>{mission.MissionName}</s>");
+                Debug.Log(err);
             }
-
-            questCompletion.text = $"{missionsCompleted} / {questMissionsList.Count}";
         }
-        catch (Exception err)
+
+        /// <summary>
+        /// Updates the UI with the current quest information.
+        /// <paramref name="mission"/> The current mission.
+        /// </summary>
+        /// <param name="mission"></param>
+        private void OnMissionCompleted(Mission mission)
         {
-            Debug.Log(err);
-        }
-    }
+            try
+            {
+                missionsCompleted++;
 
-    private void OnDisable()
-    {
-        Quest.OnQuestCompleted -= OnQuestCompleted;
-        Quest.OnMissionCompleted -= OnMissionCompleted;
-        Quest.OnQuestStarted -= OnQuestStarted;
+                if (questMissions.text.Contains(mission.MissionName))
+                {
+                    questMissions.text = questMissions.text.Replace(mission.MissionName, $"<s>{mission.MissionName}</s>");
+                }
+
+                questCompletion.text = $"{missionsCompleted} / {questMissionsList.Count}";
+            }
+            catch (Exception err)
+            {
+                Debug.Log(err);
+            }
+        }
+
+        private void OnDisable()
+        {
+            Quest.OnQuestCompleted -= OnQuestCompleted;
+            Quest.OnMissionCompleted -= OnMissionCompleted;
+            Quest.OnQuestStarted -= OnQuestStarted;
+        }
     }
 }

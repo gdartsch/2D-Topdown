@@ -1,20 +1,29 @@
-using System.Collections;
-using System.Collections.Generic;
+using MatchaIsSpent.InventorySystem;
 using UnityEngine;
 
-public class ItemObject : MonoBehaviour
+namespace MatchaIsSpent.Objects
 {
-    [SerializeField] protected Item[] items;
-
-    public Item[] Items { get => items; set => items = value; }
-
-    protected virtual void OnTriggerEnter2D(Collider2D collision)
+    /// <summary>
+    /// An object that can be picked up.
+    /// </summary>
+    public class ItemObject : MonoBehaviour
     {
-        if (collision.TryGetComponent(out Inventory inventory))
+        [Tooltip("The items that can be picked up.")]
+        [SerializeField] protected Item[] items;
+
+        /// <summary>
+        /// The items that can be picked up.
+        /// </summary>
+        public Item[] Items { get => items; set => items = value; }
+
+        protected virtual void OnTriggerEnter2D(Collider2D collision)
         {
-            foreach (var item in Items)
+            if (collision.TryGetComponent(out Inventory inventory))
             {
-                inventory.AddItem(item);
+                foreach (var item in Items)
+                {
+                    inventory.AddItem(item);
+                }
             }
         }
     }

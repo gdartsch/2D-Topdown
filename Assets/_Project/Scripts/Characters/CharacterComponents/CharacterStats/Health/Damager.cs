@@ -1,14 +1,21 @@
 using UnityEngine;
 
-public class Damager : MonoBehaviour
+namespace MatchaIsSpent.StatSystem
 {
-    [SerializeField] private int damage = 10;
-
-    private void OnTriggerEnter2D(Collider2D other)
+    /// <summary>
+    /// Damages objects that can take damage.
+    /// </summary>
+    public class Damager : MonoBehaviour
     {
-        if (other.TryGetComponent(out IDamageable damageable))
+        [Tooltip("The amount of damage to deal.")]
+        [SerializeField] private int damage = 10;
+
+        private void OnTriggerEnter2D(Collider2D other)
         {
-            damageable.TakeDamage(damage);
+            if (other.TryGetComponent(out IDamageable damageable))
+            {
+                damageable.TakeDamage(damage);
+            }
         }
     }
 }

@@ -1,31 +1,42 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class QuestObject : MonoBehaviour
+namespace MatchaIsSpent.QuestSystem
 {
-    [SerializeField] private string missionName;
-    private bool used;
-
-    public string MissionName { get => missionName; set => missionName = value; }
-
-    private void OnTriggerEnter2D(Collider2D collision)
+    /// <summary>
+    /// Objects that can be used to complete missions.
+    /// </summary>
+    public class QuestObject : MonoBehaviour
     {
-        if (used) return;
+        [Tooltip("The name of the mission that this object can complete.")]
+        [SerializeField] private string missionName;
+        /// <summary>
+        /// Determines if the object has been used.
+        /// </summary>
+        private bool used;
 
-        if (collision.TryGetComponent(out QuestComponent questComponent))
+        /// <summary>
+        /// The name of the mission that this object can complete.
+        /// </summary>
+        public string MissionName { get => missionName; set => missionName = value; }
+
+        private void OnTriggerEnter2D(Collider2D collision)
         {
-            questComponent.Quests.ForEach(quest =>
+            if (used) return;
+
+            if (collision.TryGetComponent(out QuestComponent questComponent))
             {
-                quest.Missions.ForEach(mission =>
+                questComponent.Quests.ForEach(quest =>
                 {
-                    if (mission.MissionName == MissionName)
+                    quest.Missions.ForEach(mission =>
                     {
-                        mission.CompleteMission();
-                        used = true;
-                    }
+                        if (mission.MissionName == MissionName)
+                        {
+                            mission.CompleteMission();
+                            used = true;
+                        }
+                    });
                 });
-            });
+            }
         }
     }
 }

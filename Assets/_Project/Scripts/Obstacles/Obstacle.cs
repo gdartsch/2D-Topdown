@@ -1,14 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public abstract class Obstacle : MonoBehaviour
+namespace MatchaIsSpent.Obstacles
 {
-    [SerializeField] protected ObstacleType type;
-
-    public ObstacleType Type { get => type; set => type = value; }
-
-    protected virtual void OnTriggerEnter2D(Collider2D collision)
+    /// <summary>
+    /// Obstacles are objects that can block the progression of the player.
+    /// </summary>
+    public abstract class Obstacle : MonoBehaviour
     {
+        [Tooltip("The type of obstacle.")]
+        [SerializeField] protected ObstacleType type;
+
+        /// <summary>
+        /// The type of obstacle.
+        /// </summary>
+        public ObstacleType Type { get => type; set => type = value; }
+
+        protected virtual void OnTriggerEnter2D(Collider2D collision)
+        {
+        }
     }
 }

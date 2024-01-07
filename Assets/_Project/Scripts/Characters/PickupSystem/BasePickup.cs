@@ -1,14 +1,22 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class BasePickup : MonoBehaviour
+namespace MatchaIsSpent.Pickups
 {
-    [SerializeField] protected PickupTypes type;
-
-    public PickupTypes Type { get => type; set => type = value; }
-
-    protected virtual void OnTriggerEnter2D(Collider2D collision)
+    /// <summary>
+    /// The base class for all pickups.
+    /// </summary>
+    public class BasePickup : MonoBehaviour
     {
+        [Tooltip("The type of pickup.")]
+        [SerializeField] protected PickupTypes type;
+
+        /// <summary>
+        /// The type of pickup.
+        /// </summary>
+        public PickupTypes Type { get => type; set => type = value; }
+
+        protected virtual void OnTriggerEnter2D(Collider2D collision)
+        {
+        }
     }
 }

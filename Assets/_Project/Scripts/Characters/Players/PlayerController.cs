@@ -1,4 +1,5 @@
 using MatchaIsSpent.Characters.AbilitySystem;
+using MatchaIsSpent.StatSystem;
 using UnityEngine;
 
 namespace MatchaIsSpent.CharactersStateSystem

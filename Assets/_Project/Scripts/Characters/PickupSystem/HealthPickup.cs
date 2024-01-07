@@ -1,17 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
+using MatchaIsSpent.StatSystem;
 using UnityEngine;
 
-public class HealthPickup : BasePickup
+namespace MatchaIsSpent.Pickups
 {
-    [SerializeField] private int healthAmount = 10;
-
-    protected override void OnTriggerEnter2D(Collider2D collision)
+    /// <summary>
+    /// A health pickup restores health to the player.
+    /// </summary>
+    public class HealthPickup : BasePickup
     {
-        if (collision.TryGetComponent(out HealthSystem healthSystem))
+        [Tooltip("The amount of health to restore.")]
+        [SerializeField] private int healthAmount = 10;
+
+        protected override void OnTriggerEnter2D(Collider2D collision)
         {
-            healthSystem.AddHealth(healthAmount);
-            Destroy(gameObject);
+            if (collision.TryGetComponent(out HealthSystem healthSystem))
+            {
+                healthSystem.AddHealth(healthAmount);
+                Destroy(gameObject);
+            }
         }
     }
 }

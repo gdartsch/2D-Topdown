@@ -1,17 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
+using MatchaIsSpent.StatSystem;
 using UnityEngine;
 
-public class ManaPickup : BasePickup
+namespace MatchaIsSpent.Pickups
 {
-    [SerializeField] private int manaAmount = 10;
-
-    protected override void OnTriggerEnter2D(Collider2D collision)
+    /// <summary>
+    /// A mana pickup restores mana to the player.
+    /// </summary>
+    public class ManaPickup : BasePickup
     {
-        if (collision.TryGetComponent(out ManaSystem manaSystem))
+        [Tooltip("The amount of mana to restore.")]
+        [SerializeField] private int manaAmount = 10;
+
+        protected override void OnTriggerEnter2D(Collider2D collision)
         {
-            manaSystem.RestoreMana(manaAmount);
-            Destroy(gameObject);
+            if (collision.TryGetComponent(out ManaSystem manaSystem))
+            {
+                manaSystem.RestoreMana(manaAmount);
+                Destroy(gameObject);
+            }
         }
     }
 }

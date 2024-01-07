@@ -1,5 +1,11 @@
-public enum PickupTypes
+namespace MatchaIsSpent.Pickups
 {
-    HP,
-    MP
+    /// <summary>
+    /// The type of pickup.
+    /// </summary>
+    public enum PickupTypes
+    {
+        HP,
+        MP
+    }
 }

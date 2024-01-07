@@ -1,3 +1,4 @@
+using MatchaIsSpent.Obstacles;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 

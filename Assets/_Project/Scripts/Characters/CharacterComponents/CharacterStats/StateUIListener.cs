@@ -1,27 +1,28 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class StateUIListener : MonoBehaviour
+namespace MatchaIsSpent.StatSystem
 {
-    [SerializeField] private Slider stateUI;
-    [SerializeField] protected StatType statType;
-
-    private void OnEnable()
+    public class StateUIListener : MonoBehaviour
     {
-        BaseStatSystem.OnStatChanged += OnStatChanged;
-    }
+        [SerializeField] private Slider stateUI;
+        [SerializeField] protected StatType statType;
 
-    private void OnDisable()
-    {
-        BaseStatSystem.OnStatChanged -= OnStatChanged;
-    }
+        private void OnEnable()
+        {
+            BaseStatSystem.OnStatChanged += OnStatChanged;
+        }
 
-    private void OnStatChanged(int currentStat, int maxStat, StatType statType)
-    {
-        if (this.statType != statType) return;
+        private void OnDisable()
+        {
+            BaseStatSystem.OnStatChanged -= OnStatChanged;
+        }
 
-        stateUI.value = (float)currentStat / maxStat;
+        private void OnStatChanged(int currentStat, int maxStat, StatType statType)
+        {
+            if (this.statType != statType) return;
+
+            stateUI.value = (float)currentStat / maxStat;
+        }
     }
 }

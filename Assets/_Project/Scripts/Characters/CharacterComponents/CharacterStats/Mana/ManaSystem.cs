@@ -1,44 +1,75 @@
 using System.Collections;
 using UnityEngine;
 
-public class ManaSystem : BaseStatSystem
+namespace MatchaIsSpent.StatSystem
 {
-    [SerializeField] private int manaRecoverRate = 10;
-    public int MaxMana => maxStat;
-    public int CurrenMana => currentStat;
-
-    private void Start()
+    /// <summary>
+    /// The mana system.
+    /// </summary>
+    public class ManaSystem : BaseStatSystem
     {
-        currentStat = maxStat;
-        OnStatChangedEvent();
-    }
+        [Tooltip("The maximum amount of mana.")]
+        [SerializeField] private int manaRecoverRate = 10;
 
-    public void SpendMana(int value)
-    {
-        currentStat -= value;
-        Debug.Log(currentStat + " " + maxStat);
-        RestoreManaOverTime();
-        OnStatChangedEvent();
-    }
+        /// <summary>
+        /// The maximum amount of mana.
+        /// </summary>
+        public int MaxMana => maxStat;
+        /// <summary>
+        /// The current amount of mana.
+        /// </summary>
+        public int CurrenMana => currentStat;
 
-    public void RestoreMana(int mana)
-    {
-        currentStat += mana;
-        OnStatChangedEvent();
-    }
-
-    private void RestoreManaOverTime()
-    {
-        StartCoroutine(RestoreManaOverTimeCoroutine());
-    }
-
-    private IEnumerator RestoreManaOverTimeCoroutine()
-    {
-        while (currentStat < maxStat)
+        private void Start()
         {
-            currentStat += manaRecoverRate;
+            currentStat = maxStat;
             OnStatChangedEvent();
-            yield return new WaitForSeconds(1f);
+        }
+
+        /// <summary>
+        /// Spend mana.
+        /// <paramref name="value"/> The amount of mana to spend.
+        /// </summary>
+        /// <param name="value"></param>
+        public void SpendMana(int value)
+        {
+            currentStat -= value;
+            Debug.Log(currentStat + " " + maxStat);
+            RestoreManaOverTime();
+            OnStatChangedEvent();
+        }
+
+        /// <summary>
+        /// Restore mana.
+        /// <paramref name="mana"/> The amount of mana to restore.
+        /// </summary>
+        /// <param name="mana"></param>
+        public void RestoreMana(int mana)
+        {
+            currentStat += mana;
+            OnStatChangedEvent();
+        }
+
+        /// <summary>
+        /// Restore mana over time.
+        /// </summary>
+        private void RestoreManaOverTime()
+        {
+            StartCoroutine(RestoreManaOverTimeCoroutine());
+        }
+
+        /// <summary>
+        /// Restore mana over time coroutine.
+        /// </summary>
+        /// <returns></returns>
+        private IEnumerator RestoreManaOverTimeCoroutine()
+        {
+            while (currentStat < maxStat)
+            {
+                currentStat += manaRecoverRate;
+                OnStatChangedEvent();
+                yield return new WaitForSeconds(1f);
+            }
         }
     }
 }

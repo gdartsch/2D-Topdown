@@ -1,6 +1,11 @@
-
-public enum StatType
+namespace MatchaIsSpent.StatSystem
 {
-    HP,
-    MP
+    /// <summary>
+    /// The type of stat.
+    /// </summary>
+    public enum StatType
+    {
+        HP,
+        MP
+    }
 }
