@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4215416567571648085}
   - component: {fileID: 3736176625030441931}
   - component: {fileID: 5939427163285896375}
+  - component: {fileID: 6130465213074846787}
   m_Layer: 0
   m_Name: Chest
   m_TagString: Untagged
@@ -138,3 +139,16 @@ MonoBehaviour:
   spriteRenderer: {fileID: 4215416567571648085}
   openSprite: {fileID: -1554506936, guid: af302d5379485e64fa82576e57b14967, type: 3}
   closedSprite: {fileID: -1284659972, guid: af302d5379485e64fa82576e57b14967, type: 3}
+--- !u!114 &6130465213074846787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6840048204806217040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0bdcddf3e6a40e40b03eb25bd0491d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  missionName: Get Key

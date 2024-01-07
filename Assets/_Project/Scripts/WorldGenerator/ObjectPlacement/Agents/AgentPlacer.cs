@@ -62,10 +62,10 @@ namespace MatchaIsSpent.WorldGeneration
                 Dictionary<Vector2Int, Vector2Int> roomMap = roomGraph.RunBinaryPartitionSpace(roomFloor.First(), room.PropPositions);
                 room.PositionsAccessibleFromPath = roomMap.Keys.OrderBy(x => Guid.NewGuid()).ToList();
 
-                if (roomNPCsCount.Count > i && placePlayer)
+                if (roomNPCsCount.Count > i)
                     PlaceNPCs(room, roomNPCsCount[i]);
 
-                if (i == playerRoomIndex)
+                if (i == playerRoomIndex && placePlayer)
                 {
                     GameObject player = Instantiate(playerPrefab);
                     player.transform.parent = playerParent;
@@ -83,13 +83,13 @@ namespace MatchaIsSpent.WorldGeneration
         /// <summary>
         /// Places the NPCs in the room.
         /// <paramref name="room"/> The room where the NPCs will be placed.
-        /// <paramref name="enemiesCount"/> The number of NPCs to be placed.
+        /// <paramref name="nPCsCount"/> The number of NPCs to be placed.
         /// </summary>
         /// <param name="room"></param>
-        /// <param name="enemiesCount"></param>
-        private void PlaceNPCs(Room room, int enemiesCount)
+        /// <param name="nPCsCount"></param>
+        private void PlaceNPCs(Room room, int nPCsCount)
         {
-            for (short i = 0; i < enemiesCount; i++)
+            for (short i = 0; i < nPCsCount; i++)
             {
                 if (room.PositionsAccessibleFromPath.Count <= i) return;
 

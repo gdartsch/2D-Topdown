@@ -1,8 +1,15 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
 namespace MatchaIsSpent.StatSystem
 {
+    public enum HealthHolder
+    {
+        Player,
+        Enemy
+    }
+
     /// <summary>
     /// The health system of the character.
     /// </summary>
@@ -15,6 +22,8 @@ namespace MatchaIsSpent.StatSystem
         [SerializeField] private SpriteRenderer spriteRenderer;
         [Tooltip("The audio source.")]
         [SerializeField] private AudioSource audioSource;
+        [field: Tooltip("The health holder.")]
+        [field: SerializeField] public HealthHolder HealthHolder { get; set; }
 
         /// <summary>
         /// The maximum amount of health.
@@ -24,6 +33,11 @@ namespace MatchaIsSpent.StatSystem
         /// The current amount of health.
         /// </summary>
         public int CurrentHealth => currentStat;
+
+        /// <summary>
+        /// The event that is called when the health holder dies.
+        /// </summary>
+        public static event Action<HealthSystem> OnDied;
 
         private void Start()
         {
@@ -79,6 +93,7 @@ namespace MatchaIsSpent.StatSystem
         {
             if (currentStat <= 0)
             {
+                OnDied?.Invoke(this);
                 Destroy(gameObject);
                 return true;
             }

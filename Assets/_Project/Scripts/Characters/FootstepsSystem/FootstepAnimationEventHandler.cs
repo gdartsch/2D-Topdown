@@ -12,6 +12,12 @@ namespace MatchaIsSpent.Characters.FootstepsSystem
         [Tooltip("The footsteps map manager.")]
         [SerializeField] private FootstepsMapManager footstepsMapManager;
 
+        private void Start()
+        {
+            if (footstepsMapManager == null)
+                footstepsMapManager = FindObjectOfType<FootstepsMapManager>();
+        }
+
         /// <summary>
         /// Play the footstep sound. This method is called when the footstep animation event is called.
         /// </summary>
