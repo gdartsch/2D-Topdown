@@ -29,6 +29,8 @@ namespace MatchaIsSpent.CharactersStateSystem
         [field: SerializeField] public GameObject Hook { get; private set; }
         [Tooltip("The player's hand.")]
         [field: SerializeField] public Transform Hand { get; private set; }
+        [Tooltip("The player's ManaSystem.")]
+        [field: SerializeField] public ManaSystem ManaSystem { get; private set; }
 
         [field: Space(1), Header("Movement")]
         [Tooltip("The speed at which the player moves.")]
