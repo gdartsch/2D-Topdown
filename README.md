@@ -50,3 +50,5 @@ It works both from the Editor and Compiled game.
 - https://dantepixels.itch.io/key-items-16x16
 - https://www.vecteezy.com/vector-art/10462550-wooden-door-pixel
 - https://wenrexa.itch.io/ui-different02
+
+  # The MIT License on this repository only applies to my code. 3rd party Assets and the Unity Engine are under their own Licenses.
