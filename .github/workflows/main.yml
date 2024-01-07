@@ -1,6 +1,6 @@
 name: Test project
 
-on: [push, pull_request]
+on: [pull_request]
 
 jobs:
   testAllModes:
@@ -73,6 +73,8 @@ jobs:
       - uses: game-ci/unity-builder@v4
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          UNITY_SERIAL: ${{ secrets.UNITY_SERIAL }}
         with:
           targetPlatform: ${{ matrix.targetPlatform }}
       - uses: actions/upload-artifact@v3
