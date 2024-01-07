@@ -25,7 +25,7 @@ It works both from the Editor and Compiled game.
 3. Automated Procedurally Generation of the world.
 4. Custom tool.
 5. Custom simple Node.JS UDP Server.
-6. Nodular character controller.
+6. Modular character controller.
 7. Behaviour Tree based AI.
 8. Tile based Footstep System.
 9. Inventory System.
