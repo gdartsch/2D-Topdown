@@ -28,7 +28,7 @@ namespace MatchaIsSpent.BehaviourTree
         {
             foreach (Node child in children)
             {
-                child.parent = this;
+                Attach(child);
             }
         }
 

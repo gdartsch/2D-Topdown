@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using MatchaIsSpent.BehaviourTree;
-using System.Threading.Tasks;
 
 namespace MatchaIsSpent.AI
 {
@@ -17,7 +16,7 @@ namespace MatchaIsSpent.AI
         {
             Node root = new Selector(new List<Node>
             {
-                new Sequence( new List<Node>
+                new Sequence(new List<Node>
                 {
                     new CheckPlayerInFOV(transform),
                     new TaskGoToTarget(transform)
