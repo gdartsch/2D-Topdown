@@ -49,12 +49,6 @@ jobs:
           name: Coverage results for ${{ matrix.testMode }}
           path: ${{ steps.tests.outputs.coveragePath }}
 
-
-name: Build project
-
-on: [push, pull_request]
-
-jobs:
   buildForAllSupportedPlatforms:
     name: Build for ${{ matrix.targetPlatform }}
     runs-on: ubuntu-latest
