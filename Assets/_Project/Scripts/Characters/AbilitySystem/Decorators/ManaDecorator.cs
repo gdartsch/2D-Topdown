@@ -11,7 +11,7 @@ namespace MatchaIsSpent.Characters.AbilitySystem
     public class ManaDecorator : BaseAbilitySO
     {
         [Tooltip("The mana cost of the ability.")]
-        [SerializeField] private float manaCost = 10f;
+        [SerializeField] private int manaCost = 10;
         [Tooltip("The ability to run.")]
         [SerializeField] private BaseAbilitySO decoredAbility;
 
