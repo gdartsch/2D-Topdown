@@ -7,7 +7,7 @@ namespace MatchaIsSpent.Characters.AbilitySystem
     /// <summary>
     /// This is a decorator class, it is used to add new functionalities to an ability.
     /// </summary>
-    [CreateAssetMenu(fileName = "AbilityDecorators", menuName = "MatchaIsSpent/AbilitySystem/Decorators/DelayDecorator")]
+    [CreateAssetMenu(fileName = "DelayDecorator", menuName = "MatchaIsSpent/AbilitySystem/Decorators/DelayDecorator")]
     public class DelayDecorator : BaseAbilitySO
     {
         [Tooltip("The delay before the ability is run.")]

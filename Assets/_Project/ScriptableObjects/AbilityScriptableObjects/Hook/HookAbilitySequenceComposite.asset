@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: HookAbilitySequenceComposite
   m_EditorClassIdentifier: 
   children:
-  - {fileID: 11400000, guid: b84f409afdd8e314fada1b0ad07453af, type: 2}
+  - {fileID: 11400000, guid: 5c540e7cb5d81c34dad2d515fb3fa4dd, type: 2}
