@@ -19,6 +19,20 @@ It works both from the Editor and Compiled game.
 
 ![image](https://github.com/gdartsch/2D-Topdown/assets/48260719/887abe38-dfce-42e1-9182-8333887f2e20)
 
+## Current Feautes:
+1. State Machine Character Controller.
+2. Strategy - Decorator - Composite Pattern Ability System.
+3. Automated Procedurally Generation of the world.
+4. Custom tool.
+5. Custom simple Node.JS UDP Server.
+6. Nodular character controller.
+7. Behaviour Tree based AI.
+8. Tile based Footstep System.
+9. Inventory System.
+10. Pickup System.
+11. Quest System.
+
+### All features are extensively documented in the code.
 
 ## Features I plan to add:
 
