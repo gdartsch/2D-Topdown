@@ -66,10 +66,10 @@ namespace MatchaIsSpent.CustomTools
         {
             var root = rootVisualElement;
 
-            var visualTree = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/_MatchaIsSpent/Editor/MatchaIsSpentEditor.uxml");
+            var visualTree = AssetDatabase.LoadAssetAtPath<VisualTreeAsset>("Assets/_Project/Editor/MatchaIsSpentEditor.uxml");
             visualTree.CloneTree(root);
 
-            var styleSheet = AssetDatabase.LoadAssetAtPath<StyleSheet>("Assets/_MatchaIsSpent/Editor/MatchaIsSpentEditor.uss");
+            var styleSheet = AssetDatabase.LoadAssetAtPath<StyleSheet>("Assets/_Project/Editor/MatchaIsSpentEditor.uss");
             root.styleSheets.Add(styleSheet);
 
             createAbility = root.Q<Button>("CreateAbility");
