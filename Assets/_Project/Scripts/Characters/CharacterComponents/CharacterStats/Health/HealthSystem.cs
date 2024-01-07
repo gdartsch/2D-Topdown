@@ -15,6 +15,7 @@ public class HealthSystem : BaseStatSystem, IDamageable
     private void Start()
     {
         currentStat = maxStat;
+        OnStatChangedEvent();
     }
 
     public void TakeDamage(int damage)
@@ -36,5 +37,11 @@ public class HealthSystem : BaseStatSystem, IDamageable
             yield return new WaitForSeconds(0.1f);
             flashes++;
         }
+    }
+
+    public void AddHealth(int health)
+    {
+        currentStat += health;
+        OnStatChangedEvent();
     }
 }
