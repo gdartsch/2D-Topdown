@@ -6,6 +6,10 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class SceneHandler : MonoBehaviour
 {
+    private void Start()
+    {
+        DoorObstacle.OnDoorOpen += LoadSceneByName;
+    }
     /// <summary>
     /// Loads a scene by name.
     /// <paramref name="sceneToLoad">The name of the scene to load.</paramref>
@@ -32,5 +36,10 @@ public class SceneHandler : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    private void OnDestroy()
+    {
+        DoorObstacle.OnDoorOpen -= LoadSceneByName;
     }
 }
