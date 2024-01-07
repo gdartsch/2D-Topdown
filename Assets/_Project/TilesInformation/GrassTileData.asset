@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07b5dd7e2578f574b8e9f2a66e9684cb, type: 3}
+  m_Name: GrassTileData
+  m_EditorClassIdentifier: 
+  <Tiles>k__BackingField:
+  - {fileID: 11400000, guid: ad640791fffacbe488428cfe351395fc, type: 2}
+  - {fileID: 11400000, guid: 2ccc728b5c780984c9ec29bfba02bbc0, type: 2}
+  - {fileID: 11400000, guid: 8360937bf73f0d343928d84ab6c2cb3c, type: 2}
+  - {fileID: 11400000, guid: 572e87b49378a604696a3e1ee7d54e07, type: 2}
+  - {fileID: 11400000, guid: 6c80f4af929470346aa1f98508aabbe4, type: 2}
+  - {fileID: 11400000, guid: 5294e6dfaf9a0e3478c1ff5b1c28be22, type: 2}
+  - {fileID: 11400000, guid: dbf29da1bd5750445af67762519e91f6, type: 2}
+  - {fileID: 11400000, guid: 16ec741c0f6aaba46b815bc361af1c03, type: 2}
+  - {fileID: 11400000, guid: 55e8e3a8135ab4748a23f676ece63f83, type: 2}
+  - {fileID: 11400000, guid: e237e45c33fe79440aef936bdaf9f075, type: 2}
+  - {fileID: 11400000, guid: 3369147b674734741b0aab4e58e2d1af, type: 2}
+  - {fileID: 11400000, guid: 7b739367fe45f2e4abd4cb36dd477ea1, type: 2}
+  - {fileID: 11400000, guid: a60e6d6644406dc478808c9ffecade52, type: 2}
+  - {fileID: 11400000, guid: ef3881dd8f0f55b458dad6dcb748bf55, type: 2}
+  - {fileID: 11400000, guid: d1d7028dc69997a43bdb7a8f277ec1a3, type: 2}
+  - {fileID: 11400000, guid: 529f362df438239429a412f49eaf7518, type: 2}
+  - {fileID: 11400000, guid: f03417da9f5290c4ab5a6206728fe4f1, type: 2}
+  - {fileID: 11400000, guid: 9161f3108ffa8e6448b240bc44a3d8cf, type: 2}
+  - {fileID: 11400000, guid: 8ee1d293c8fc5044ea088b50716f45cc, type: 2}
+  - {fileID: 11400000, guid: e50d1b8ae22af6b42acb883ee2caeb90, type: 2}
+  - {fileID: 11400000, guid: 299af16fed7459e4b95c600a3e57875b, type: 2}
+  - {fileID: 11400000, guid: 0b1cf9f7ba3ab0542a3fba432ebd1f22, type: 2}
+  - {fileID: 11400000, guid: 6c301a49459a62541bfd2802f985afed, type: 2}
+  - {fileID: 11400000, guid: 82a24a6f2368d1141b139b024c3e818c, type: 2}
+  - {fileID: 11400000, guid: ddd11ad6ec711f74ba63ab57261dc425, type: 2}
+  - {fileID: 11400000, guid: c39184107a09d2e438abcb39b1141985, type: 2}
+  - {fileID: 11400000, guid: 27316465b8e198d49ac15f9e58b62e9a, type: 2}
+  - {fileID: 11400000, guid: 8882228153248134586132ab73d02aaa, type: 2}
+  - {fileID: 11400000, guid: bf384514dd442314cb67f612aba0daaf, type: 2}
+  - {fileID: 11400000, guid: 62bce32779106c1468d69db08fc75f51, type: 2}
+  - {fileID: 11400000, guid: 6967cac44d650574ab04da6fcc60f707, type: 2}
+  - {fileID: 11400000, guid: 11c8a35ac849f4448a4b8899d2958f03, type: 2}
+  - {fileID: 11400000, guid: 15039d941d3518047b307fcd477da90f, type: 2}
+  - {fileID: 11400000, guid: 6cc60c0dcb300a44a8d61cd0fb3f707c, type: 2}
+  - {fileID: 11400000, guid: 60d9da546d2b82446ba9fa7d6f8c1819, type: 2}
+  - {fileID: 11400000, guid: e838814a2a1a3e84ba7e5f77ecff89b9, type: 2}
+  <TileType>k__BackingField: 3

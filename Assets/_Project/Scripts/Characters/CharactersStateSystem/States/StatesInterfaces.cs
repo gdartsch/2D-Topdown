@@ -24,4 +24,11 @@ namespace MatchaIsSpent.CharactersStateSystem
     {
         void Attack();
     }
+    /// <summary>
+    /// Interface for the teleport ability.
+    /// </summary>
+    public interface ITeleport
+    {
+        void Teleport();
+    }
 }

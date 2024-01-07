@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95faae5b48af1254981adcf21f1684ea, type: 3}
+  m_Name: StoneProp
+  m_EditorClassIdentifier: 
+  <PropSprite>k__BackingField: {fileID: -174645180, guid: af302d5379485e64fa82576e57b14967, type: 3}
+  <PropSize>k__BackingField: {x: 1, y: 1}
+  <ColliderSize>k__BackingField: {x: 0.5, y: 0.5}
+  <ColliderOffset>k__BackingField: {x: 0.5, y: 0.5}
+  <HasCollider>k__BackingField: 1
+  <SortingLayerName>k__BackingField: Background
+  <Corner>k__BackingField: 1
+  <NearWallUp>k__BackingField: 1
+  <NearWallDown>k__BackingField: 0
+  <NearWallLeft>k__BackingField: 1
+  <NearWallRight>k__BackingField: 1
+  <Inner>k__BackingField: 1
+  <PlacementQuantityMin>k__BackingField: 1
+  <PlacementQuantityMax>k__BackingField: 6
+  <PlaceAsGroup>k__BackingField: 1
+  <GroupMinCount>k__BackingField: 1
+  <GroupMaxCount>k__BackingField: 3

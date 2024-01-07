@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07b5dd7e2578f574b8e9f2a66e9684cb, type: 3}
+  m_Name: CliffEdgeTileData
+  m_EditorClassIdentifier: 
+  <Tiles>k__BackingField:
+  - {fileID: 11400000, guid: 448ce0fc3b75a8b40af20ef36bf5ae51, type: 2}
+  - {fileID: 11400000, guid: 25a835cdab1d16d428b03605de12d863, type: 2}
+  - {fileID: 11400000, guid: a1cf35417d83845429b3882aafc91155, type: 2}
+  - {fileID: 11400000, guid: 91fe94a4311b07e458c80c424cbfb296, type: 2}
+  - {fileID: 11400000, guid: bf4694d54319c874ab50127b5552fd02, type: 2}
+  - {fileID: 11400000, guid: 958c3cff7393a2c49b5da388c45b89ad, type: 2}
+  - {fileID: 11400000, guid: 22d4b7913e6078543884c766711d59db, type: 2}
+  - {fileID: 11400000, guid: f26388e06e00b694788714165e085bcf, type: 2}
+  - {fileID: 11400000, guid: 93d6a2da87b2b944d8b0c861fdf3622a, type: 2}
+  - {fileID: 11400000, guid: 163c2899fb3ad1b4a827a85b05466924, type: 2}
+  - {fileID: 11400000, guid: c06a971a877066644a1b546e78785800, type: 2}
+  - {fileID: 11400000, guid: 94a0a9c2043e57e49996064d67ad8b7d, type: 2}
+  - {fileID: 11400000, guid: 4ff8329c95940ec44b3df89ee513222b, type: 2}
+  - {fileID: 11400000, guid: df07615536a160f45bc517c25b94a3d0, type: 2}
+  - {fileID: 11400000, guid: a5742e7efede96f4aa976cb77b80d60a, type: 2}
+  - {fileID: 11400000, guid: 4169f025bb785c1448a5da8ad7f138b7, type: 2}
+  - {fileID: 11400000, guid: 8ccaf7a273f5e3b4abb8dcfe00b6fc98, type: 2}
+  - {fileID: 11400000, guid: b3c5e9060b01aa54db73dc2e2b13d3b1, type: 2}
+  - {fileID: 11400000, guid: b411ce7a99e44db4aa3ce2c988eeacb1, type: 2}
+  - {fileID: 11400000, guid: 899bfd02385741540b74b30abc2b9d43, type: 2}
+  - {fileID: 11400000, guid: 1bb4d32ae5fd0bb47819c5f67297cc2e, type: 2}
+  - {fileID: 11400000, guid: 6aa923138894af340951209fc689ffde, type: 2}
+  - {fileID: 11400000, guid: 0b3e2fe89cbcf70479dc83bfbccd9e4c, type: 2}
+  - {fileID: 11400000, guid: 48e661d374845474e818611541b6b63e, type: 2}
+  - {fileID: 11400000, guid: a8f0b983b076c8a4aad4e1b016e95c2d, type: 2}
+  - {fileID: 11400000, guid: 70540c57b68da5542a877a4383c2359a, type: 2}
+  <TileType>k__BackingField: 2

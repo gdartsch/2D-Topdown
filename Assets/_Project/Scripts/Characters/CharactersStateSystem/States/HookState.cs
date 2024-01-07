@@ -15,6 +15,8 @@ namespace MatchaIsSpent.CharactersStateSystem
         /// <param name="playerController"></param>
         public HookState(PlayerController playerController) : base(playerController)
         {
+            playerController.AbilityRunner.currentAbility = playerController.AbilityRunner.AbilitySequences[1];
+            playerController.AbilityRunner.currentAbility.Run(playerController, localDeltaTime);
         }
 
         public override void OnEnter()

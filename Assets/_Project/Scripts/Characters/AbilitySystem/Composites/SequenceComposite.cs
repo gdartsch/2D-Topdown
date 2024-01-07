@@ -10,7 +10,7 @@ namespace MatchaIsSpent.Characters.AbilitySystem
     public class SequenceComposite : BaseAbilitySO
     {
         [Tooltip("The name of the abilitie's sequence.")]
-        [SerializeField] protected DelayDecorator[] children;
+        [SerializeField] protected BaseAbilitySO[] children;
 
         /// <summary>
         /// Run the ability.
