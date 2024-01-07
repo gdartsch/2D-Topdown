@@ -1,16 +1,33 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using MatchaIsSpent.BehaviourTree;
 
 namespace MatchaIsSpent.AI
 {
+    /// <summary>
+    /// Checks if the player is in the FOV of the enemy.
+    /// </summary>
     public class CheckPlayerInFOV : Node
     {
+        /// <summary>
+        /// The transform of the enemy.
+        /// </summary>
         private Transform transform;
+        /// <summary>
+        /// The animator of the enemy.
+        /// </summary>
         private Animator animator;
+        /// <summary>
+        /// The field of view radius of the enemy.
+        /// </summary>
         private float fovRadius;
 
+        /// <summary>
+        /// Sets up the check player in FOV node.
+        /// <paramref name="transform"/> The transform of the enemy.
+        /// <paramref name="fovRadius"/> The field of view radius of the enemy.
+        /// </summary>
+        /// <param name="transform"></param>
+        /// <param name="fovRadius"></param>
         public CheckPlayerInFOV(Transform transform, float fovRadius)
         {
             this.transform = transform;

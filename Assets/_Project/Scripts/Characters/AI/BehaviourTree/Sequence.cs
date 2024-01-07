@@ -1,12 +1,22 @@
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
 namespace MatchaIsSpent.BehaviourTree
 {
+    /// <summary>
+    /// The sequence node.
+    /// </summary>
     public class Sequence : Node
     {
+        /// <summary>
+        /// The constructor for the sequence node.
+        /// </summary>
         public Sequence() : base() { }
+
+        /// <summary>
+        /// The constructor for the sequence node.
+        /// <paramref name="children"/> The children of the node.
+        /// </summary>
+        /// <param name="children"></param>
         public Sequence(List<Node> children) : base(children) { }
 
         override public NodeState Evaluate()

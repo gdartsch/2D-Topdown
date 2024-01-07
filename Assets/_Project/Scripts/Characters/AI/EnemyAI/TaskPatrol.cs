@@ -1,21 +1,55 @@
-using System.Collections;
-using System.Collections.Generic;
 using MatchaIsSpent.BehaviourTree;
 using UnityEngine;
 
 namespace MatchaIsSpent.AI
 {
+    /// <summary>
+    /// This class is responsible for patrolling the enemy.
+    /// </summary>
     public class TaskPatrol : Node
     {
+        /// <summary>
+        /// The transform of the enemy.
+        /// </summary>
         private Transform transform;
+        /// <summary>
+        /// The animator of the enemy.
+        /// </summary>
         private Animator animator;
+        /// <summary>
+        /// The waypoints of the enemy.
+        /// </summary>
         private Transform[] waypoints;
+        /// <summary>
+        /// The current waypoint index.
+        /// </summary>
         private int currentWaypointIndex = 0;
+        /// <summary>
+        /// The wait time.
+        /// </summary>
         private float waitTime = 1f;
+        /// <summary>
+        /// The wait counter.
+        /// </summary>
         private float waitCounter = 0f;
+        /// <summary>
+        /// Is the enemy waiting?
+        /// </summary>
         private bool waiting = false;
+        /// <summary>
+        /// The speed of the enemy.
+        /// </summary>
         private float speed;
 
+        /// <summary>
+        /// Sets up the patrol node.
+        /// <paramref name="transform"/> The transform of the enemy.
+        /// <paramref name="waypoints"/> The waypoints of the enemy.
+        /// <paramref name="speed"/> The speed of the enemy.
+        /// </summary>
+        /// <param name="transform"></param>
+        /// <param name="waypoints"></param>
+        /// <param name="speed"></param>
         public TaskPatrol(Transform transform, Transform[] waypoints, float speed)
         {
             this.transform = transform;
@@ -58,14 +92,6 @@ namespace MatchaIsSpent.AI
 
             state = NodeState.RUNNING;
             return state;
-        }
-
-        /// <summary>
-        /// Animate the enemy.
-        /// </summary>
-        private void Animate()
-        {
-
         }
     }
 }

@@ -1,16 +1,33 @@
-using System.Collections;
-using System.Collections.Generic;
 using MatchaIsSpent.BehaviourTree;
 using UnityEngine;
 
 namespace MatchaIsSpent.AI
 {
+    /// <summary>
+    /// This class is responsible for moving the enemy towards the target.
+    /// </summary>
     public class TaskGoToTarget : Node
     {
+        /// <summary>
+        /// The transform of the enemy.
+        /// </summary>
         private Transform transform;
+        /// <summary>
+        /// The animator of the enemy.
+        /// </summary>
         private Animator animator;
+        /// <summary>
+        /// The speed of the enemy.
+        /// </summary>
         private float speed;
 
+        /// <summary>
+        /// Sets up the go to target node.
+        /// <paramref name="transform"/> The transform of the enemy.
+        /// <paramref name="speed"/> The speed of the enemy.
+        /// </summary>
+        /// <param name="transform"></param>
+        /// <param name="speed"></param>
         public TaskGoToTarget(Transform transform, float speed)
         {
             this.transform = transform;
