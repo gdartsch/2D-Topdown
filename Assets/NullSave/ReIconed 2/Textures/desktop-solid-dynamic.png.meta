@@ -1,0 +1,3429 @@
+fileFormatVersion: 2
+guid: 7a9c74f71103138439dacbc59143e2f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4917949068685927774
+    second: desktop-solid-dynamic_0
+  - first:
+      213: 5102610695873171329
+    second: desktop-solid-dynamic_1
+  - first:
+      213: -3023570101124197121
+    second: desktop-solid-dynamic_2
+  - first:
+      213: -7529201198246208204
+    second: desktop-solid-dynamic_3
+  - first:
+      213: 306166928043066850
+    second: desktop-solid-dynamic_4
+  - first:
+      213: 4118421558769751117
+    second: desktop-solid-dynamic_5
+  - first:
+      213: 4879107146089490990
+    second: desktop-solid-dynamic_6
+  - first:
+      213: -1256823058869579273
+    second: desktop-solid-dynamic_7
+  - first:
+      213: 5718340409969613754
+    second: desktop-solid-dynamic_8
+  - first:
+      213: 7721866210144141210
+    second: desktop-solid-dynamic_9
+  - first:
+      213: -6543878850116054692
+    second: desktop-solid-dynamic_10
+  - first:
+      213: 3714141761836904281
+    second: desktop-solid-dynamic_11
+  - first:
+      213: 3041578740170374072
+    second: desktop-solid-dynamic_12
+  - first:
+      213: 2258855999361206059
+    second: desktop-solid-dynamic_13
+  - first:
+      213: 7968083882979285629
+    second: desktop-solid-dynamic_14
+  - first:
+      213: 1917425912414483093
+    second: desktop-solid-dynamic_15
+  - first:
+      213: -6798239151827485097
+    second: desktop-solid-dynamic_16
+  - first:
+      213: -8702973891960144359
+    second: desktop-solid-dynamic_17
+  - first:
+      213: 853824612222234038
+    second: desktop-solid-dynamic_18
+  - first:
+      213: -7748447653746293258
+    second: desktop-solid-dynamic_19
+  - first:
+      213: -2801597964360809919
+    second: desktop-solid-dynamic_20
+  - first:
+      213: -5654674266690974853
+    second: desktop-solid-dynamic_21
+  - first:
+      213: 7437464483547098486
+    second: desktop-solid-dynamic_22
+  - first:
+      213: 3926720630743263117
+    second: desktop-solid-dynamic_23
+  - first:
+      213: -3990719529099687503
+    second: desktop-solid-dynamic_24
+  - first:
+      213: -6864762916928490486
+    second: desktop-solid-dynamic_25
+  - first:
+      213: -5017167581231290781
+    second: desktop-solid-dynamic_26
+  - first:
+      213: 7522843998298610803
+    second: desktop-solid-dynamic_27
+  - first:
+      213: 8676033880812622833
+    second: desktop-solid-dynamic_28
+  - first:
+      213: 6785662538425228847
+    second: desktop-solid-dynamic_29
+  - first:
+      213: -8553375266321424437
+    second: desktop-solid-dynamic_30
+  - first:
+      213: -2812693413203892471
+    second: desktop-solid-dynamic_31
+  - first:
+      213: -5119913581698358991
+    second: desktop-solid-dynamic_32
+  - first:
+      213: -2109559460650374216
+    second: desktop-solid-dynamic_33
+  - first:
+      213: -928732154024445428
+    second: desktop-solid-dynamic_34
+  - first:
+      213: -1384156111412220551
+    second: desktop-solid-dynamic_35
+  - first:
+      213: -425582359835841936
+    second: desktop-solid-dynamic_36
+  - first:
+      213: -405041504479219620
+    second: desktop-solid-dynamic_37
+  - first:
+      213: 6668060717022741170
+    second: desktop-solid-dynamic_38
+  - first:
+      213: -8820071834337033903
+    second: desktop-solid-dynamic_39
+  - first:
+      213: 7716652656915852630
+    second: desktop-solid-dynamic_40
+  - first:
+      213: 6066193606100557474
+    second: desktop-solid-dynamic_41
+  - first:
+      213: 1856599868530645030
+    second: desktop-solid-dynamic_42
+  - first:
+      213: 787967542414109032
+    second: desktop-solid-dynamic_43
+  - first:
+      213: -3649256377081303056
+    second: desktop-solid-dynamic_44
+  - first:
+      213: -1249162321754565012
+    second: desktop-solid-dynamic_45
+  - first:
+      213: -5570032284012617277
+    second: desktop-solid-dynamic_46
+  - first:
+      213: 8822291593352786555
+    second: desktop-solid-dynamic_47
+  - first:
+      213: -2371122250123679842
+    second: desktop-solid-dynamic_48
+  - first:
+      213: -8151055316897088752
+    second: desktop-solid-dynamic_49
+  - first:
+      213: -5482129582132792227
+    second: desktop-solid-dynamic_50
+  - first:
+      213: 4942072427676030940
+    second: desktop-solid-dynamic_51
+  - first:
+      213: 394584861432053327
+    second: desktop-solid-dynamic_52
+  - first:
+      213: -7085322975424922172
+    second: desktop-solid-dynamic_53
+  - first:
+      213: -6177989768532859577
+    second: desktop-solid-dynamic_54
+  - first:
+      213: 7674929578957480948
+    second: desktop-solid-dynamic_55
+  - first:
+      213: 2541805188094560416
+    second: desktop-solid-dynamic_56
+  - first:
+      213: -6112771503971650804
+    second: desktop-solid-dynamic_57
+  - first:
+      213: -1379395409119109327
+    second: desktop-solid-dynamic_58
+  - first:
+      213: 8751523317101423570
+    second: desktop-solid-dynamic_59
+  - first:
+      213: -4548395300312218149
+    second: desktop-solid-dynamic_60
+  - first:
+      213: 888525342572083386
+    second: desktop-solid-dynamic_61
+  - first:
+      213: -5650861775893442681
+    second: desktop-solid-dynamic_62
+  - first:
+      213: -7204203059345194024
+    second: desktop-solid-dynamic_63
+  - first:
+      213: 3417370542508912054
+    second: desktop-solid-dynamic_64
+  - first:
+      213: 8309012718189201887
+    second: desktop-solid-dynamic_65
+  - first:
+      213: 5937810477540862615
+    second: desktop-solid-dynamic_66
+  - first:
+      213: -8127188425611658470
+    second: desktop-solid-dynamic_67
+  - first:
+      213: 3489511790019142671
+    second: desktop-solid-dynamic_68
+  - first:
+      213: 8770125830062245218
+    second: desktop-solid-dynamic_69
+  - first:
+      213: 8186109146791645478
+    second: desktop-solid-dynamic_70
+  - first:
+      213: -3814753240734878594
+    second: desktop-solid-dynamic_71
+  - first:
+      213: 7966528788771873198
+    second: desktop-solid-dynamic_72
+  - first:
+      213: 6226932839674638660
+    second: desktop-solid-dynamic_73
+  - first:
+      213: 8200098015232193254
+    second: desktop-solid-dynamic_74
+  - first:
+      213: 3956423458160780650
+    second: desktop-solid-dynamic_75
+  - first:
+      213: -4632795913807496255
+    second: desktop-solid-dynamic_76
+  - first:
+      213: -3069970178778330529
+    second: desktop-solid-dynamic_77
+  - first:
+      213: -155016562924292704
+    second: desktop-solid-dynamic_78
+  - first:
+      213: -8929728137883868511
+    second: desktop-solid-dynamic_79
+  - first:
+      213: 2530671263379245944
+    second: desktop-solid-dynamic_80
+  - first:
+      213: -6028378960948803371
+    second: desktop-solid-dynamic_81
+  - first:
+      213: 5640821710948631572
+    second: desktop-solid-dynamic_82
+  - first:
+      213: -4069556144724784345
+    second: desktop-solid-dynamic_83
+  - first:
+      213: 5006037217684421896
+    second: desktop-solid-dynamic_84
+  - first:
+      213: 7231333369254360072
+    second: desktop-solid-dynamic_85
+  - first:
+      213: -6306860358710681835
+    second: desktop-solid-dynamic_86
+  - first:
+      213: 533449576613012550
+    second: desktop-solid-dynamic_87
+  - first:
+      213: 7608687054728850206
+    second: desktop-solid-dynamic_88
+  - first:
+      213: -3592612221823499366
+    second: desktop-solid-dynamic_89
+  - first:
+      213: -8567757409120431891
+    second: desktop-solid-dynamic_90
+  - first:
+      213: -4892745564121398888
+    second: desktop-solid-dynamic_91
+  - first:
+      213: 5767031170250375272
+    second: desktop-solid-dynamic_92
+  - first:
+      213: -3702681548365761503
+    second: desktop-solid-dynamic_93
+  - first:
+      213: 5846464863918068972
+    second: desktop-solid-dynamic_94
+  - first:
+      213: 5109421621247627501
+    second: desktop-solid-dynamic_95
+  - first:
+      213: -9090329032337894594
+    second: desktop-solid-dynamic_96
+  - first:
+      213: -4599825868942467110
+    second: desktop-solid-dynamic_97
+  - first:
+      213: 7180323905378551647
+    second: desktop-solid-dynamic_98
+  - first:
+      213: -7695799262413188120
+    second: desktop-solid-dynamic_99
+  - first:
+      213: -4860584046561890428
+    second: desktop-solid-dynamic_100
+  - first:
+      213: 9148321608112098430
+    second: desktop-solid-dynamic_101
+  - first:
+      213: 7547885086225327512
+    second: desktop-solid-dynamic_102
+  - first:
+      213: 9114424337091468980
+    second: desktop-solid-dynamic_103
+  - first:
+      213: -9219531153761391525
+    second: desktop-solid-dynamic_104
+  - first:
+      213: -8572458019233096852
+    second: desktop-solid-dynamic_105
+  - first:
+      213: -5805750850553163269
+    second: desktop-solid-dynamic_106
+  - first:
+      213: -4742314710217753975
+    second: desktop-solid-dynamic_107
+  - first:
+      213: -2467823269209717555
+    second: desktop-solid-dynamic_108
+  - first:
+      213: 8620432256203197411
+    second: desktop-solid-dynamic_109
+  - first:
+      213: 4103985975871154225
+    second: desktop-solid-dynamic_110
+  - first:
+      213: -8897667574329553310
+    second: desktop-solid-dynamic_111
+  - first:
+      213: -6344469883020360232
+    second: desktop-solid-dynamic_112
+  - first:
+      213: 4604844103373839523
+    second: desktop-solid-dynamic_113
+  - first:
+      213: -7312912410394317161
+    second: desktop-solid-dynamic_114
+  - first:
+      213: -246585668415435677
+    second: desktop-solid-dynamic_115
+  - first:
+      213: 1900453641667274482
+    second: desktop-solid-dynamic_116
+  - first:
+      213: -2203327875962872539
+    second: desktop-solid-dynamic_117
+  - first:
+      213: 866247111029567259
+    second: desktop-solid-dynamic_118
+  - first:
+      213: 7535323423384913965
+    second: desktop-solid-dynamic_119
+  - first:
+      213: -2040884049086618998
+    second: desktop-solid-dynamic_120
+  - first:
+      213: -7398549280345381283
+    second: desktop-solid-dynamic_121
+  - first:
+      213: 8298363286401384569
+    second: desktop-solid-dynamic_122
+  - first:
+      213: -4893941860757138940
+    second: desktop-solid-dynamic_123
+  - first:
+      213: 3298799628791045222
+    second: desktop-solid-dynamic_124
+  - first:
+      213: 5036334399328337393
+    second: desktop-solid-dynamic_125
+  - first:
+      213: 8275590462915955888
+    second: desktop-solid-dynamic_126
+  - first:
+      213: -8164455501375121240
+    second: desktop-solid-dynamic_127
+  - first:
+      213: 5351652481905549749
+    second: desktop-solid-dynamic_128
+  - first:
+      213: -322973399984239261
+    second: desktop-solid-dynamic_129
+  - first:
+      213: -7434456283790740566
+    second: desktop-solid-dynamic_130
+  - first:
+      213: 8322098639544285605
+    second: desktop-solid-dynamic_131
+  - first:
+      213: -1028136603757111772
+    second: desktop-solid-dynamic_132
+  - first:
+      213: -8475674225991927416
+    second: desktop-solid-dynamic_133
+  - first:
+      213: 2849087549677336375
+    second: desktop-solid-dynamic_134
+  - first:
+      213: -5205570901707435925
+    second: desktop-solid-dynamic_135
+  - first:
+      213: 477919634878203328
+    second: desktop-solid-dynamic_136
+  - first:
+      213: -8868952776508702652
+    second: desktop-solid-dynamic_137
+  - first:
+      213: -5253116413827623611
+    second: desktop-solid-dynamic_138
+  - first:
+      213: -2098768686749921126
+    second: desktop-solid-dynamic_139
+  - first:
+      213: -2782540512397384398
+    second: desktop-solid-dynamic_140
+  - first:
+      213: -72681080584128727
+    second: desktop-solid-dynamic_141
+  - first:
+      213: -619886823470636874
+    second: desktop-solid-dynamic_142
+  - first:
+      213: 4985459066953807849
+    second: desktop-solid-dynamic_143
+  - first:
+      213: 7105405165487408048
+    second: desktop-solid-dynamic_144
+  - first:
+      213: 8466788158099926901
+    second: desktop-solid-dynamic_145
+  - first:
+      213: -8915468438203569431
+    second: desktop-solid-dynamic_146
+  - first:
+      213: 3827108487774210792
+    second: desktop-solid-dynamic_147
+  - first:
+      213: 7171626200366751090
+    second: desktop-solid-dynamic_148
+  - first:
+      213: 5027078876936446979
+    second: desktop-solid-dynamic_149
+  - first:
+      213: 1966932265837493577
+    second: desktop-solid-dynamic_150
+  - first:
+      213: -5186471793791440282
+    second: desktop-solid-dynamic_151
+  - first:
+      213: 8671163291660289125
+    second: desktop-solid-dynamic_152
+  - first:
+      213: -870308166608749315
+    second: desktop-solid-dynamic_153
+  - first:
+      213: -4687267654751726579
+    second: desktop-solid-dynamic_154
+  - first:
+      213: 6008930615731570486
+    second: desktop-solid-dynamic_155
+  - first:
+      213: 2568924724841733629
+    second: desktop-solid-dynamic_156
+  - first:
+      213: -4391750115626895848
+    second: desktop-solid-dynamic_157
+  - first:
+      213: -6414730307935307138
+    second: desktop-solid-dynamic_158
+  - first:
+      213: -1802854035046474551
+    second: desktop-solid-dynamic_159
+  - first:
+      213: 5476748208394371813
+    second: desktop-solid-dynamic_160
+  - first:
+      213: 6119741687335070415
+    second: desktop-solid-dynamic_161
+  - first:
+      213: -1068430282925827168
+    second: desktop-solid-dynamic_162
+  - first:
+      213: 8650046909702451067
+    second: desktop-solid-dynamic_163
+  - first:
+      213: -3293699674167182801
+    second: desktop-solid-dynamic_164
+  - first:
+      213: 2403177547340869303
+    second: desktop-solid-dynamic_165
+  - first:
+      213: -3024465208844953932
+    second: desktop-solid-dynamic_166
+  - first:
+      213: 8793675573235100350
+    second: desktop-solid-dynamic_167
+  - first:
+      213: -6973885331106231266
+    second: desktop-solid-dynamic_168
+  - first:
+      213: -1427712499935590281
+    second: desktop-solid-dynamic_169
+  - first:
+      213: -1013082625455631985
+    second: desktop-solid-dynamic_170
+  - first:
+      213: -2561068789986042378
+    second: desktop-solid-dynamic_171
+  - first:
+      213: -4019622845215492406
+    second: desktop-solid-dynamic_172
+  - first:
+      213: 2734794034358576337
+    second: desktop-solid-dynamic_173
+  - first:
+      213: 187123388540919875
+    second: desktop-solid-dynamic_174
+  - first:
+      213: 6322659672917286198
+    second: desktop-solid-dynamic_175
+  - first:
+      213: -3558465560578893781
+    second: desktop-solid-dynamic_176
+  - first:
+      213: -5098854902538372193
+    second: desktop-solid-dynamic_177
+  - first:
+      213: -4257879461653217322
+    second: desktop-solid-dynamic_178
+  - first:
+      213: 5017591909099388514
+    second: desktop-solid-dynamic_179
+  - first:
+      213: 5004295890533753835
+    second: desktop-solid-dynamic_180
+  - first:
+      213: -5269902759645798909
+    second: desktop-solid-dynamic_181
+  - first:
+      213: 628057124620762324
+    second: desktop-solid-dynamic_182
+  - first:
+      213: -2920785939622685316
+    second: desktop-solid-dynamic_183
+  - first:
+      213: 7411912789393478507
+    second: desktop-solid-dynamic_184
+  - first:
+      213: 4604754358745069809
+    second: desktop-solid-dynamic_185
+  - first:
+      213: 8103835310590107207
+    second: desktop-solid-dynamic_186
+  - first:
+      213: -7792428425945137955
+    second: desktop-solid-dynamic_187
+  - first:
+      213: -844349055921203012
+    second: desktop-solid-dynamic_188
+  - first:
+      213: -3036374374908043308
+    second: desktop-solid-dynamic_189
+  - first:
+      213: -7642857121239007468
+    second: desktop-solid-dynamic_190
+  - first:
+      213: 7959184479760360346
+    second: desktop-solid-dynamic_191
+  - first:
+      213: -5312025361984146517
+    second: desktop-solid-dynamic_192
+  - first:
+      213: 402599283905236814
+    second: desktop-solid-dynamic_193
+  - first:
+      213: -542901238634361333
+    second: desktop-solid-dynamic_194
+  - first:
+      213: 2942190757769980760
+    second: desktop-solid-dynamic_195
+  - first:
+      213: -838100923377005526
+    second: desktop-solid-dynamic_196
+  - first:
+      213: -4532620383847579285
+    second: desktop-solid-dynamic_197
+  - first:
+      213: -4014898456993618775
+    second: desktop-solid-dynamic_198
+  - first:
+      213: -2052831528856009119
+    second: desktop-solid-dynamic_199
+  - first:
+      213: -4029103143258135959
+    second: desktop-solid-dynamic_200
+  - first:
+      213: -1029144419851499631
+    second: desktop-solid-dynamic_201
+  - first:
+      213: -8369201512431790971
+    second: desktop-solid-dynamic_202
+  - first:
+      213: -4852880036091083500
+    second: desktop-solid-dynamic_203
+  - first:
+      213: -7183248228782705324
+    second: desktop-solid-dynamic_204
+  - first:
+      213: 4258893533207173484
+    second: desktop-solid-dynamic_205
+  - first:
+      213: -6408642109059435873
+    second: desktop-solid-dynamic_206
+  - first:
+      213: -4614297655479222211
+    second: desktop-solid-dynamic_207
+  - first:
+      213: 8156026805549075102
+    second: desktop-solid-dynamic_208
+  - first:
+      213: 2594837403174536014
+    second: desktop-solid-dynamic_209
+  - first:
+      213: 1107443935191626665
+    second: desktop-solid-dynamic_210
+  - first:
+      213: -6407792194387942995
+    second: desktop-solid-dynamic_211
+  - first:
+      213: -8411904135892679310
+    second: desktop-solid-dynamic_212
+  - first:
+      213: -6881766639066729391
+    second: desktop-solid-dynamic_213
+  - first:
+      213: -8891678939814564046
+    second: desktop-solid-dynamic_214
+  - first:
+      213: 8989534757144799805
+    second: desktop-solid-dynamic_215
+  - first:
+      213: 6225791448099547538
+    second: desktop-solid-dynamic_216
+  - first:
+      213: -6333177954490679841
+    second: desktop-solid-dynamic_217
+  - first:
+      213: 6583423910142284697
+    second: desktop-solid-dynamic_218
+  - first:
+      213: 6455167822431391481
+    second: desktop-solid-dynamic_219
+  - first:
+      213: -6456613063140004343
+    second: desktop-solid-dynamic_220
+  - first:
+      213: 7853563730994513372
+    second: desktop-solid-dynamic_221
+  - first:
+      213: 6625902183727099935
+    second: desktop-solid-dynamic_222
+  - first:
+      213: 4206481115189840819
+    second: desktop-solid-dynamic_223
+  - first:
+      213: -1618442626528531113
+    second: desktop-solid-dynamic_224
+  - first:
+      213: -7874906909652266671
+    second: desktop-solid-dynamic_225
+  - first:
+      213: 2010245803668431104
+    second: desktop-solid-dynamic_226
+  - first:
+      213: -6840513278262184067
+    second: desktop-solid-dynamic_227
+  - first:
+      213: 8299139254896275462
+    second: desktop-solid-dynamic_228
+  - first:
+      213: 7355037993373479581
+    second: desktop-solid-dynamic_229
+  - first:
+      213: 4388698933105107232
+    second: desktop-solid-dynamic_230
+  - first:
+      213: -2575225819923798015
+    second: desktop-solid-dynamic_231
+  - first:
+      213: -3999092958972853519
+    second: desktop-solid-dynamic_232
+  - first:
+      213: 5408971645463690212
+    second: desktop-solid-dynamic_233
+  - first:
+      213: -9076500542715225145
+    second: desktop-solid-dynamic_234
+  - first:
+      213: -1471941803822913338
+    second: desktop-solid-dynamic_235
+  - first:
+      213: 7178017505245731976
+    second: desktop-solid-dynamic_236
+  - first:
+      213: -2736082259898374575
+    second: desktop-solid-dynamic_237
+  - first:
+      213: 2406638452459684468
+    second: desktop-solid-dynamic_238
+  - first:
+      213: 3990287596336746829
+    second: desktop-solid-dynamic_239
+  - first:
+      213: 869422323552973485
+    second: desktop-solid-dynamic_240
+  - first:
+      213: 3121059263400722382
+    second: desktop-solid-dynamic_241
+  - first:
+      213: -3640142594296142092
+    second: desktop-solid-dynamic_242
+  - first:
+      213: -7206722325423156166
+    second: desktop-solid-dynamic_243
+  - first:
+      213: 8594254294840970252
+    second: desktop-solid-dynamic_244
+  - first:
+      213: -8196580634427144143
+    second: desktop-solid-dynamic_245
+  - first:
+      213: -1747782976268920032
+    second: desktop-solid-dynamic_246
+  - first:
+      213: 8680991613010946182
+    second: desktop-solid-dynamic_247
+  - first:
+      213: -4174083666333499819
+    second: desktop-solid-dynamic_248
+  - first:
+      213: -2235954374396986503
+    second: desktop-solid-dynamic_249
+  - first:
+      213: 2744408460803624559
+    second: desktop-solid-dynamic_250
+  - first:
+      213: -3009849281487374908
+    second: desktop-solid-dynamic_251
+  - first:
+      213: 7674323817472704683
+    second: desktop-solid-dynamic_252
+  - first:
+      213: -1051986820270499455
+    second: desktop-solid-dynamic_253
+  - first:
+      213: -3854491617389628953
+    second: desktop-solid-dynamic_254
+  - first:
+      213: 4926553507735984704
+    second: desktop-solid-dynamic_255
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa1381e06fefbbb0800000000000000
+      internalID: -4917949068685927774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f01a2a46d10d640800000000000000
+      internalID: 5102610695873171329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff41009330f1a06d0800000000000000
+      internalID: -3023570101124197121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43dd610d667e28790800000000000000
+      internalID: -7529201198246208204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e5cafbe239bf3400800000000000000
+      internalID: 306166928043066850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4418cd5692972930800000000000000
+      internalID: 4118421558769751117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2aebb7491216b340800000000000000
+      internalID: 4879107146089490990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f11f8e361ede8ee0800000000000000
+      internalID: -1256823058869579273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb10094e40ab5f40800000000000000
+      internalID: 5718340409969613754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9fbbbae764992b60800000000000000
+      internalID: 7721866210144141210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5114a55bd87f25a0800000000000000
+      internalID: -6543878850116054692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f6bb701484b8330800000000000000
+      internalID: 3714141761836904281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bb3c3ccfbbd53a20800000000000000
+      internalID: 3041578740170374072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 448
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b274fa04091195f10800000000000000
+      internalID: 2258855999361206059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 448
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592389855b01c9a10800000000000000
+      internalID: 1917425912414483093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e7b21928dc7a1a0800000000000000
+      internalID: -6798239151827485097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdedf706f469db00800000000000000
+      internalID: 853824612222234038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14201d2be79be19d0800000000000000
+      internalID: -2801597964360809919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67da86bda8e273760800000000000000
+      internalID: 7437464483547098486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_24
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b98cc56bbd1e98c0800000000000000
+      internalID: -3990719529099687503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_25
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a04f3358f767bb0a0800000000000000
+      internalID: -6864762916928490486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_26
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3666a1ebaa07f5ab0800000000000000
+      internalID: -5017167581231290781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_27
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c944b32c2866860800000000000000
+      internalID: 7522843998298610803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_28
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f31715d8d6776870800000000000000
+      internalID: 8676033880812622833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_30
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcf9c44538e4c4980800000000000000
+      internalID: -8553375266321424437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_31
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907a6e33e3e47f8d0800000000000000
+      internalID: -2812693413203892471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 131eb2259b962f8b0800000000000000
+      internalID: -5119913581698358991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ab3ebc60b7c13f0800000000000000
+      internalID: -928732154024445428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97da699a95d7acce0800000000000000
+      internalID: -1384156111412220551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07aef4b3917081af0800000000000000
+      internalID: -425582359835841936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_37
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50f93ec5e0016af0800000000000000
+      internalID: -405041504479219620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b280eaa4e5b98c50800000000000000
+      internalID: 6668060717022741170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151c9ecb56fc89580800000000000000
+      internalID: -8820071834337033903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_40
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d2b86f4be071b60800000000000000
+      internalID: 7716652656915852630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_41
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae9e56d1f27f2450800000000000000
+      internalID: 6066193606100557474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_42
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6285ec56eb7f3c910800000000000000
+      internalID: 1856599868530645030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_43
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86961241e4c6fea00800000000000000
+      internalID: 787967542414109032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_44
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff6dbdd8ac3b5dc0800000000000000
+      internalID: -3649256377081303056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_45
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6654099c751aaee0800000000000000
+      internalID: -1249162321754565012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_46
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c168f3262543b2b0800000000000000
+      internalID: -5570032284012617277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_47
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 320
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7235be26731f6a70800000000000000
+      internalID: 8822291593352786555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e976a5250e4181fd0800000000000000
+      internalID: -2371122250123679842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b3acb1062a1ee80800000000000000
+      internalID: -8151055316897088752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54705cc0309be3b0800000000000000
+      internalID: -5482129582132792227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7d1e150b4c59440800000000000000
+      internalID: 4942072427676030940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e776347d8d97500800000000000000
+      internalID: 394584861432053327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd32e22b40ebad90800000000000000
+      internalID: -7085322975424922172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745e994b90f534aa0800000000000000
+      internalID: -6177989768532859577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_55
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f326edd9c3d28a60800000000000000
+      internalID: 7674929578957480948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_56
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a80f9cf95e464320800000000000000
+      internalID: 2541805188094560416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_57
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c03b3a834b21b2ba0800000000000000
+      internalID: -6112771503971650804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_58
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f96aa0f276bdce0800000000000000
+      internalID: -1379395409119109327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_59
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbe06fd618a37970800000000000000
+      internalID: 8751523317101423570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_60
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd585d2a29ad0e0c0800000000000000
+      internalID: -4548395300312218149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_61
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8f0f9671da45c00800000000000000
+      internalID: 888525342572083386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_62
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78fc905872b1491b0800000000000000
+      internalID: -5650861775893442681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_63
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d382fdac77850c90800000000000000
+      internalID: -7204203059345194024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bda0240760fc6f20800000000000000
+      internalID: 3417370542508912054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9cedd4b0b8f4370800000000000000
+      internalID: 8309012718189201887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a6a616b27576250800000000000000
+      internalID: 5937810477540862615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_67
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1b30c4cf2d663f80800000000000000
+      internalID: -8127188425611658470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04e0ab1c7c3d6030800000000000000
+      internalID: 3489511790019142671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_69
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2658650f9feb5b970800000000000000
+      internalID: 8770125830062245218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_70
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621971ba5e6ea9170800000000000000
+      internalID: 8186109146791645478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_71
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e743a3493264f0bc0800000000000000
+      internalID: -3814753240734878594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_72
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1aba399bbce8e60800000000000000
+      internalID: 7966528788771873198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_73
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441750d0d628a6650800000000000000
+      internalID: 6226932839674638660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_74
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2fc49e2b99cc170800000000000000
+      internalID: 8200098015232193254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_75
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6522b45c2a08e630800000000000000
+      internalID: 3956423458160780650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_76
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb7f9879a005bfb0800000000000000
+      internalID: -4632795913807496255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_77
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a00e643664565d0800000000000000
+      internalID: -3069970178778330529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_78
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a57890e14549ddf0800000000000000
+      internalID: -155016562924292704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_79
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 192
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a22f90029b331480800000000000000
+      internalID: -8929728137883868511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b42012b10ce1320800000000000000
+      internalID: 2530671263379245944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d845355645e65ca0800000000000000
+      internalID: -6028378960948803371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_82
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4148762b579384e40800000000000000
+      internalID: 5640821710948631572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_83
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bcb207f380687c0800000000000000
+      internalID: -4069556144724784345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80df67c8354097540800000000000000
+      internalID: 5006037217684421896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_85
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804b5d6d26bda5460800000000000000
+      internalID: 7231333369254360072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_86
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f9e0f3be78978a0800000000000000
+      internalID: -6306860358710681835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_87
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644e9974091376700800000000000000
+      internalID: 533449576613012550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_88
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1be930509c779960800000000000000
+      internalID: 7608687054728850206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_89
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93cb7ef73a742ec0800000000000000
+      internalID: -3592612221823499366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_90
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0d7a3c706391980800000000000000
+      internalID: -8567757409120431891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_91
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8910d2215d9791cb0800000000000000
+      internalID: -4892745564121398888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_92
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86001675b4c980050800000000000000
+      internalID: 5767031170250375272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_93
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 124f349dfbe6d9cc0800000000000000
+      internalID: -3702681548365761503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_94
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce493ad51d0d22150800000000000000
+      internalID: 5846464863918068972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_95
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 128
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de05a26c4ef48e640800000000000000
+      internalID: 5109421621247627501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33541068e9a8d180800000000000000
+      internalID: -9090329032337894594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf180d3eb22a20c0800000000000000
+      internalID: -4599825868942467110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5785588c82a5a360800000000000000
+      internalID: 7180323905378551647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3162d4857033590800000000000000
+      internalID: -7695799262413188120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f6fb7ef8cbb8cb0800000000000000
+      internalID: -4860584046561890428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c4d8e580e55fe70800000000000000
+      internalID: 9148321608112098430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_102
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 895ede9de797fb860800000000000000
+      internalID: 7547885086225327512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_103
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be1380f4a0fc7e70800000000000000
+      internalID: 9114424337091468980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_104
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ca7684345ad0080800000000000000
+      internalID: -9219531153761391525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_105
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6b99afa9d2880980800000000000000
+      internalID: -8572458019233096852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_106
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf15b529c54dd6fa0800000000000000
+      internalID: -5805750850553163269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_107
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a7c5c95e9ef2eb0800000000000000
+      internalID: -4742314710217753975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_108
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4cf4ecfc780cdd0800000000000000
+      internalID: -2467823269209717555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_109
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 64
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eb8f49c67de1a770800000000000000
+      internalID: 8620432256203197411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_110
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 64
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1382cfe408944f830800000000000000
+      internalID: 4103985975871154225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d5486e714ae3f7a0800000000000000
+      internalID: -6344469883020360232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_114
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ea6e088e0538a90800000000000000
+      internalID: -7312912410394317161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_116
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6ecaf9484cf5a10800000000000000
+      internalID: 1900453641667274482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_118
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 192
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f20ac6827850c00800000000000000
+      internalID: 866247111029567259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_121
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56aac3f0a2135990800000000000000
+      internalID: -7398549280345381283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_122
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970091f3175b92370800000000000000
+      internalID: 8298363286401384569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_123
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402182e8ec9351cb0800000000000000
+      internalID: -4893941860757138940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_124
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66cd74bd8c0b7cd20800000000000000
+      internalID: 3298799628791045222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_125
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fdbb0ad377a4e540800000000000000
+      internalID: 5036334399328337393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: desktop-solid-dynamic_126
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 0
+        width: 98
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc47b81eadc8d270800000000000000
+      internalID: 8275590462915955888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 32eeb1dda8d750744a56a18b69d69d50
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      desktop-solid-dynamic_0: -4917949068685927774
+      desktop-solid-dynamic_1: 5102610695873171329
+      desktop-solid-dynamic_10: -6543878850116054692
+      desktop-solid-dynamic_100: -4860584046561890428
+      desktop-solid-dynamic_101: 9148321608112098430
+      desktop-solid-dynamic_102: 7547885086225327512
+      desktop-solid-dynamic_103: 9114424337091468980
+      desktop-solid-dynamic_104: -9219531153761391525
+      desktop-solid-dynamic_105: -8572458019233096852
+      desktop-solid-dynamic_106: -5805750850553163269
+      desktop-solid-dynamic_107: -4742314710217753975
+      desktop-solid-dynamic_108: -2467823269209717555
+      desktop-solid-dynamic_109: 8620432256203197411
+      desktop-solid-dynamic_11: 3714141761836904281
+      desktop-solid-dynamic_110: 4103985975871154225
+      desktop-solid-dynamic_112: -6344469883020360232
+      desktop-solid-dynamic_114: -7312912410394317161
+      desktop-solid-dynamic_116: 1900453641667274482
+      desktop-solid-dynamic_118: 866247111029567259
+      desktop-solid-dynamic_12: 3041578740170374072
+      desktop-solid-dynamic_121: -7398549280345381283
+      desktop-solid-dynamic_122: 8298363286401384569
+      desktop-solid-dynamic_123: -4893941860757138940
+      desktop-solid-dynamic_124: 3298799628791045222
+      desktop-solid-dynamic_125: 5036334399328337393
+      desktop-solid-dynamic_126: 8275590462915955888
+      desktop-solid-dynamic_13: 2258855999361206059
+      desktop-solid-dynamic_15: 1917425912414483093
+      desktop-solid-dynamic_16: -6798239151827485097
+      desktop-solid-dynamic_18: 853824612222234038
+      desktop-solid-dynamic_2: -3023570101124197121
+      desktop-solid-dynamic_20: -2801597964360809919
+      desktop-solid-dynamic_22: 7437464483547098486
+      desktop-solid-dynamic_24: -3990719529099687503
+      desktop-solid-dynamic_25: -6864762916928490486
+      desktop-solid-dynamic_26: -5017167581231290781
+      desktop-solid-dynamic_27: 7522843998298610803
+      desktop-solid-dynamic_28: 8676033880812622833
+      desktop-solid-dynamic_3: -7529201198246208204
+      desktop-solid-dynamic_30: -8553375266321424437
+      desktop-solid-dynamic_31: -2812693413203892471
+      desktop-solid-dynamic_32: -5119913581698358991
+      desktop-solid-dynamic_34: -928732154024445428
+      desktop-solid-dynamic_35: -1384156111412220551
+      desktop-solid-dynamic_36: -425582359835841936
+      desktop-solid-dynamic_37: -405041504479219620
+      desktop-solid-dynamic_38: 6668060717022741170
+      desktop-solid-dynamic_39: -8820071834337033903
+      desktop-solid-dynamic_4: 306166928043066850
+      desktop-solid-dynamic_40: 7716652656915852630
+      desktop-solid-dynamic_41: 6066193606100557474
+      desktop-solid-dynamic_42: 1856599868530645030
+      desktop-solid-dynamic_43: 787967542414109032
+      desktop-solid-dynamic_44: -3649256377081303056
+      desktop-solid-dynamic_45: -1249162321754565012
+      desktop-solid-dynamic_46: -5570032284012617277
+      desktop-solid-dynamic_47: 8822291593352786555
+      desktop-solid-dynamic_48: -2371122250123679842
+      desktop-solid-dynamic_49: -8151055316897088752
+      desktop-solid-dynamic_5: 4118421558769751117
+      desktop-solid-dynamic_50: -5482129582132792227
+      desktop-solid-dynamic_51: 4942072427676030940
+      desktop-solid-dynamic_52: 394584861432053327
+      desktop-solid-dynamic_53: -7085322975424922172
+      desktop-solid-dynamic_54: -6177989768532859577
+      desktop-solid-dynamic_55: 7674929578957480948
+      desktop-solid-dynamic_56: 2541805188094560416
+      desktop-solid-dynamic_57: -6112771503971650804
+      desktop-solid-dynamic_58: -1379395409119109327
+      desktop-solid-dynamic_59: 8751523317101423570
+      desktop-solid-dynamic_6: 4879107146089490990
+      desktop-solid-dynamic_60: -4548395300312218149
+      desktop-solid-dynamic_61: 888525342572083386
+      desktop-solid-dynamic_62: -5650861775893442681
+      desktop-solid-dynamic_63: -7204203059345194024
+      desktop-solid-dynamic_64: 3417370542508912054
+      desktop-solid-dynamic_65: 8309012718189201887
+      desktop-solid-dynamic_66: 5937810477540862615
+      desktop-solid-dynamic_67: -8127188425611658470
+      desktop-solid-dynamic_68: 3489511790019142671
+      desktop-solid-dynamic_69: 8770125830062245218
+      desktop-solid-dynamic_7: -1256823058869579273
+      desktop-solid-dynamic_70: 8186109146791645478
+      desktop-solid-dynamic_71: -3814753240734878594
+      desktop-solid-dynamic_72: 7966528788771873198
+      desktop-solid-dynamic_73: 6226932839674638660
+      desktop-solid-dynamic_74: 8200098015232193254
+      desktop-solid-dynamic_75: 3956423458160780650
+      desktop-solid-dynamic_76: -4632795913807496255
+      desktop-solid-dynamic_77: -3069970178778330529
+      desktop-solid-dynamic_78: -155016562924292704
+      desktop-solid-dynamic_79: -8929728137883868511
+      desktop-solid-dynamic_8: 5718340409969613754
+      desktop-solid-dynamic_80: 2530671263379245944
+      desktop-solid-dynamic_81: -6028378960948803371
+      desktop-solid-dynamic_82: 5640821710948631572
+      desktop-solid-dynamic_83: -4069556144724784345
+      desktop-solid-dynamic_84: 5006037217684421896
+      desktop-solid-dynamic_85: 7231333369254360072
+      desktop-solid-dynamic_86: -6306860358710681835
+      desktop-solid-dynamic_87: 533449576613012550
+      desktop-solid-dynamic_88: 7608687054728850206
+      desktop-solid-dynamic_89: -3592612221823499366
+      desktop-solid-dynamic_9: 7721866210144141210
+      desktop-solid-dynamic_90: -8567757409120431891
+      desktop-solid-dynamic_91: -4892745564121398888
+      desktop-solid-dynamic_92: 5767031170250375272
+      desktop-solid-dynamic_93: -3702681548365761503
+      desktop-solid-dynamic_94: 5846464863918068972
+      desktop-solid-dynamic_95: 5109421621247627501
+      desktop-solid-dynamic_96: -9090329032337894594
+      desktop-solid-dynamic_97: -4599825868942467110
+      desktop-solid-dynamic_98: 7180323905378551647
+      desktop-solid-dynamic_99: -7695799262413188120
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
