@@ -26,11 +26,6 @@ namespace MatchaIsSpent.Characters.AbilitySystem
             this.decoredAbility = decoredAbility;
         }
 
-        /* 
-        * This is not the corect way to do this, 
-        * the reference to the AbilityRunner component to use the Monobehaviour's method "StartCoroutine" is not clean at all,
-        * but it works as an example of the decorator pattern, which is what I wanted to demonstrate here.
-        */
         /// <summary>
         /// Run the ability.
         /// <paramref name="controller"/>: The player controller.
