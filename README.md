@@ -15,6 +15,11 @@
 
 It works both from the Editor and Compiled game.
 
+## Controls:
+
+![image](https://github.com/gdartsch/2D-Topdown/assets/48260719/887abe38-dfce-42e1-9182-8333887f2e20)
+
+
 ## Features I plan to add:
 
 1. Splash screen.
