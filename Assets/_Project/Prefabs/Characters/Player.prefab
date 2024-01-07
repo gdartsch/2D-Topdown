@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 5852498733586823683}
   - component: {fileID: 1711467247370305152}
   - component: {fileID: 6776703423516433023}
+  - component: {fileID: 673482399746223901}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -232,8 +233,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.02, y: -0.78}
-  m_Size: {x: 0.46, y: 0.0001}
+  m_Offset: {x: 0.01, y: -0.07}
+  m_Size: {x: 0.46, y: 0.8}
   m_Direction: 0
 --- !u!114 &5698168473384913784
 MonoBehaviour:
@@ -470,6 +471,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mana: 100
+--- !u!114 &673482399746223901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3523646264781673658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef2f7bab14ff40348ae5bbb0cc2c0d8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items: []
 --- !u!1 &6179967306525516761
 GameObject:
   m_ObjectHideFlags: 0
