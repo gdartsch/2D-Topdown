@@ -9,11 +9,13 @@ namespace MatchaIsSpent.AI
     {
         private Transform transform;
         private Animator animator;
+        private float speed;
 
-        public TaskGoToTarget(Transform transform)
+        public TaskGoToTarget(Transform transform, float speed)
         {
             this.transform = transform;
             animator = transform.GetComponent<Animator>();
+            this.speed = speed;
         }
 
         override public NodeState Evaluate()
@@ -22,7 +24,7 @@ namespace MatchaIsSpent.AI
 
             if (Vector2.Distance(transform.position, target.position) > 0.1f)
             {
-                transform.position = Vector2.MoveTowards(transform.position, target.position, EnemyBehaviourTree.speed * Time.deltaTime);
+                transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
                 animator.SetFloat("Speed", 1f);
                 float x = transform.position.x - target.position.x;
                 float y = transform.position.y - target.position.y;

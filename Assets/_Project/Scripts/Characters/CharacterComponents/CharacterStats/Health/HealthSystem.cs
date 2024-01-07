@@ -38,6 +38,9 @@ namespace MatchaIsSpent.StatSystem
         /// <param name="damage"></param>
         public void TakeDamage(int damage)
         {
+            if (IsDead())
+                return;
+
             currentStat -= damage;
             audioSource.PlayOneShot(damageSound);
             StartCoroutine(FlashSprite());
@@ -70,6 +73,17 @@ namespace MatchaIsSpent.StatSystem
         {
             currentStat += health;
             OnStatChangedEvent();
+        }
+
+        public bool IsDead()
+        {
+            if (currentStat <= 0)
+            {
+                Destroy(gameObject);
+                return true;
+            }
+
+            return false;
         }
     }
 }

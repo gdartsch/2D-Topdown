@@ -9,19 +9,19 @@ namespace MatchaIsSpent.AI
     {
         private Transform transform;
         private Animator animator;
-        private Rigidbody2D rigidbody2D;
         private Transform[] waypoints;
         private int currentWaypointIndex = 0;
         private float waitTime = 1f;
         private float waitCounter = 0f;
         private bool waiting = false;
+        private float speed;
 
-        public TaskPatrol(Transform transform, Transform[] waypoints)
+        public TaskPatrol(Transform transform, Transform[] waypoints, float speed)
         {
             this.transform = transform;
             animator = transform.GetComponent<Animator>();
-            rigidbody2D = transform.GetComponent<Rigidbody2D>();
             this.waypoints = waypoints;
+            this.speed = speed;
         }
 
         public override NodeState Evaluate()
@@ -48,7 +48,7 @@ namespace MatchaIsSpent.AI
                 }
                 else
                 {
-                    transform.position = Vector3.MoveTowards(transform.position, waypoint.position, EnemyBehaviourTree.speed * Time.deltaTime);
+                    transform.position = Vector3.MoveTowards(transform.position, waypoint.position, speed * Time.deltaTime);
                     float x = transform.position.x - waypoint.position.x;
                     float y = transform.position.y - waypoint.position.y;
                     animator.SetFloat("AnimationMoveX", x < 0 ? 1f : -1f);
