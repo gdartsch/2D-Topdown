@@ -48,10 +48,17 @@ public class QuestUITracker : MonoBehaviour
 
     private void OnQuestCompleted(Quest quest)
     {
-        isQuestActiveText.text = "No Active Quest";
-        questName.text = "";
-        questMissions.text = "";
-        questCompletion.text = "";
+        try
+        {
+            isQuestActiveText.text = "No Active Quest";
+            questName.text = "";
+            questMissions.text = "";
+            questCompletion.text = "";
+        }
+        catch (Exception err)
+        {
+            Debug.Log(err);
+        }
     }
 
     private void OnMissionCompleted(Mission mission)

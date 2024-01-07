@@ -16,6 +16,7 @@ public class ManaSystem : BaseStatSystem
     public void SpendMana(int value)
     {
         currentStat -= value;
+        Debug.Log(currentStat + " " + maxStat);
         RestoreManaOverTime();
         OnStatChangedEvent();
     }
